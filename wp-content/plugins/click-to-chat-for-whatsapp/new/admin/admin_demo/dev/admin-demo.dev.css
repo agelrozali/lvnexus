@@ -1,0 +1,24 @@
+/* .ctc_demo_load {
+    background: yellow;
+    padding: 40px;
+    min-width: 400px;
+    min-height: 200px;
+} */
+
+.ctc_run_demo_btn {
+    cursor: pointer;
+    width: fit-content;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+/* less than 1200 */
+@media only screen and (max-width: 1200px) {
+
+    .ctc_menu_at_demo,
+    .ctc_run_demo_btn {
+        display: none !important;
+    }
+
+}

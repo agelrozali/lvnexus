@@ -1,0 +1,41 @@
+{
+    "name": "mcaskill/php-html-build-attributes",
+    "description": "Generate a string of HTML attributes.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chauncey McAskill",
+            "email": "chauncey@mcaskill.ca",
+            "homepage": "https://github.com/mcaskill"
+        }
+    ],
+    "keywords": [
+        "front-end",
+        "html",
+        "templating"
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "php": ">=7.4.0",
+        "pestphp/pest": "^1.22"
+    },
+    "autoload": {
+        "files": [ "Function.HTML-Build-Attributes.php" ]
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": [
+            "@test:pest"
+        ],
+        "test:pest": [
+            "pest"
+        ]
+    }
+}

@@ -1,0 +1,278 @@
+== Changelog ==
+
+= 1.15.11 =
+
+* Switch to using `WP_ENVIRONMENT_TYPE` for staging/production environment detection.
+
+= 1.15.10 =
+
+* POC of using `WP_ENVIRONMENT_TYPE` instead of shop domain for staging/production environment detection to prevent issues with the plugin randomly disconnecting.
+
+= 1.15.9 =
+
+* Remove call to legacy Omnisend API, related to carts backwards compatibility.
+
+= 1.15.8 =
+
+* Fix incorrect plugin version update check, which caused unnecessary API requests to the store in some cases.
+
+= 1.15.7 =
+
+* Introduce `_omnisend_contact_cache` table to store data which replace `wp_options` table for contactID.
+
+= 1.15.6 =
+
+* Minor improvements regarding first time connection notifications.
+
+= 1.15.5 =
+
+* Fix an issue where in the plugin would sometimes disconnect from Omnisend automatically.
+
+= 1.15.4 =
+
+* Minor improvements for log messages.
+
+= 1.15.3 =
+
+* Disconnect plugin when domain change is detected. This should prevent issues when a cloned site connects to the original's Omnisend account.
+
+= 1.15.2 =
+
+* Change plugin menu page position.
+
+= 1.15.1 =
+
+* Plugin styling fixes.
+
+= 1.15.0 =
+
+* Plugin is moved under Marketing (WooCommerce marketing) section.
+* Plugin navigation updated.
+
+= 1.14.11 =
+
+* Update description header
+* Fix casing for WooCommerce name in UI.
+* Make numbers shown in landing page dynamic.
+* Simplify plugin version checking logic
+
+= 1.14.10 =
+
+* Update supported WordPress version to 6.5.
+* Simplify default checkout opt-in settings logic for new installations.
+
+= 1.14.9 =
+
+* Add admin menu notification badges.
+* Update connection page design.
+
+= 1.14.8 =
+
+* Add Patchstack security vulnerability disclosure program link to faq.
+
+= 1.14.7 =
+
+* Sync custom contact tag to Omnisend after contact identification.
+
+= 1.14.6 =
+
+* Tag contacts with custom tags if needed after order creation.
+
+= 1.14.5 =
+
+* Improve plugin security by adding nonce verification and fix some lint issues.
+
+= 1.14.4 =
+
+* Add nonce verification to avoid CSRF on logs page.
+
+= 1.14.3 =
+
+* Rename registration URL params.
+* Fix PHP warning.
+
+= 1.14.2 =
+
+* Update registration url and params.
+
+= 1.14.1 =
+
+* Update scripts loading logic.
+
+= 1.14.0 =
+
+* Redesign Plugin settings page
+
+= 1.13.14 =
+
+* Improve plugin event tracking.
+
+= 1.13.13 =
+
+* Enable marketing opt-in checkbox in checkout page by default for new installations.
+
+= 1.13.12 =
+
+* Change logic when option `omnisend_wp_version` is updated.
+
+= 1.13.11 =
+
+* Remove legacy `$productViewed` event logic.
+
+= 1.13.10 =
+
+* Update listing images.
+
+= 1.13.9 =
+
+* Add authentication for `status` REST endpoint.
+
+= 1.13.8 =
+
+* Add debugging for product viewed event.
+
+= 1.13.7 =
+
+* Fix product viewed event triggering on page load.
+
+= 1.13.6 =
+
+* Update supported WordPress version to 6.4.
+
+= 1.13.5 =
+
+* Add check for WooCommerce `Cart Item` to prevent errors.
+* Add Omnisend cart ID to cart events.
+
+= 1.13.4 =
+
+* Add `added_item` property to `added product to cart` event payload.
+* Prefix all global function names with `omnisend_` to avoid clashing with other plugins.
+* Minor code quality improvements.
+
+= 1.13.3 =
+
+* Remove logic which use `display_name` as fallback if user don't have first_name.
+
+= 1.13.2 =
+
+* Update plugin icon to svg.
+* Enrich cart event payload with timestamp.
+
+= 1.13.1 =
+
+* Test plugin with WordPress 6.3 version.
+
+= 1.13.0 =
+
+* Add support for WooCommerce High-Performance Order Storage.
+
+= 1.12.4 =
+
+* Apply some more WordPress PHP coding standards.
+* Fix errors notices while trying to enrich webhook payload.
+
+= 1.12.3 =
+
+* Fix errors related to type annotations.
+* Apply some more WordPress PHP coding standards.
+
+= 1.12.2 =
+
+* Solve Omnisend contact identification issue.
+
+= 1.12.1 =
+
+* Improve started checkout event tracking.
+
+= 1.12.0 =
+
+* Improve contact push channel sale attribution.
+* Bump required PHP version to 7.1.
+* Apply some more WordPress PHP coding standards.
+* Implement other technical improvements.
+* Change plugin page banner and texts.
+
+= 1.11.12 =
+
+* Retry sending plugin logs on unsuccessful response.
+
+= 1.11.11 =
+
+* Send plugin logs to Omnisend.
+
+= 1.11.10 =
+
+* Add check for empty order resource at `woocommerce_webhook_payload` to prevent order webhook errors.
+
+= 1.11.9 =
+
+* Include orders without metadata in sync stats table.
+
+= 1.11.8 =
+
+* Use exact shipping info on order sync.
+
+= 1.11.7 =
+
+* Add `omnisend_order_status_url` to order webhook payload.
+
+= 1.11.6 =
+
+* Check if Omnisend plugin can access the WooCommerce API properly.
+
+= 1.11.5 =
+* Fix Omnisend notices display issues.
+
+= 1.11.4 =
+* Improve 'Add missing permissions to keep Omnisend working' visibility in settings page.
+
+= 1.11.3 =
+* Sync contacts to Omnisend if they are updated via store admin interface.
+* Fix the data sync.
+
+= 1.11.2 =
+* Move sync settings to separate tab.
+
+= 1.11.1 =
+* Refactor WooCommerce version check.
+
+= 1.11.0 =
+* Apply WordPress coding standards and prevent potential security issues.
+
+= 1.10.10 =
+* Change plugin name and add short description.
+
+= 1.10.9 =
+* Rename global function to avoid clashing with other plugins.
+
+= 1.10.8 =
+* Change texts and color of missing permissions notice.
+
+= 1.10.7 =
+* Add REST 'status' endpoint.
+* Delete WooCommerce webhooks for Omnisend plugin on plugin deactivation.
+* Remove WooCommerce API keys issued for Omnisend plugin on uninstallation.
+
+= 1.10.6 =
+* Pass `subTotalTaxIncluded` flag during order sync.
+
+= 1.10.5 =
+* Fix issue with "non-subscribed" for email on checkout when "phone" field is removed from form.
+
+= 1.10.4 =
+* Fix background plugin page refresh once plugin is connected when WordPress is installed in subdirectory.
+* Fix issue with "non-subscribed" for email on checkout when the opt-in box is checked.
+* Test plugin with WordPress 6.1 and WooCommerce 7.1 versions for compatibility.
+
+= 1.10.3 =
+* Fix an issue so Omnisend API rate limits would be applied correctly.
+
+= 1.10.2 =
+* Fixes for WooCommerce authorization flow which are related to some of the cases, where users where not able to "Add permissions" from notices and connect Omnisend account.
+
+= 1.10.1 =
+* Send cart item variations with "Added product to cart" and "Started checkout" customer events.
+
+= 1.10.0 =
+* Prepare plugin to track "Added product to cart" and "Started checkout" customer events, which will be released to Omnisend users in a form of new segmentation rules and enhanced automation triggers in the short future.

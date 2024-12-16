@@ -1,0 +1,230 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+h1 {
+  font-size: 1.3em !important;
+  font-weight: 600 !important;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 17px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: transparent;
+  border-width: 1px;
+  border-bottom-width: 0;
+  border-color: #d0d0d0;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible.first {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.collapsible.last,
+.collapsible-content.last {
+  border-bottom-width: 1px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapsible-content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  border: solid #000;
+  border-width: 0 1px;
+  transition: max-height 0.2s ease-out;
+  border-color: #d0d0d0;
+}
+
+#map {
+  margin-top: 16px;
+  height: 250px;
+}
+
+#mapModal {
+  margin-top: 16px;
+  height: 500px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  margin-left: 200px;
+  margin-right: 40px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.border-bottom {
+  border-bottom: 0.0625rem solid #e9ecef !important;
+}
+
+.card {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #7e8993;
+  border-radius: 4px;
+}
+
+.xdsoft_datetimepicker .xdsoft_noselect .xdsoft_ {
+  z-index: 20000;
+}
+
+.biteship-cancel-shipment-button {
+  color: #c71717 !important;
+  border-color: #c71717 !important;
+}
+
+span.select2.select2-container.select2-container--default {
+  z-index: 1;
+}
+
+a#order-tracking {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f7f7f7;
+  color: #555;
+  font-size: 15px;
+  min-height: 30px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+a.btn-tracking {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  color: #555;
+  font-size: 13px;
+  min-height: 30px;
+  padding: 0 10px;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+table.tracking-items {
+  text-align: left;
+  grid-template-columns: 1fr auto;
+  column-gap: 10px;
+  row-gap: 6px;
+  align-items: center;
+}

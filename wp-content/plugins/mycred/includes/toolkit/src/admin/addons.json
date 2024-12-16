@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Gravity Form Booking Integration",
+    "description": "Gravity Form Booking is a plugin for WordPress that allows you to build points based on the Gravity Form Booking plugin",
+    "slug": "mycred-gravity-form-booking",
+    "dependency": "gf-bookings-premium/index.php",
+    "dependencyName" : "Gravity Form Bookings",
+    "category": "Event/ Booking",
+    "settingUrl": "wp-admin/admin.php?page=mycred-hooks",
+    "addonUrl": "https://mycred.me/", 
+    "type"     : "free"
+  }
+]

@@ -1,0 +1,1 @@
+(()=>{"use strict";var n=function(n){var t=new CustomEvent(n,{detail:arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}});window.dispatchEvent(t)};window.addEventListener("DOMContentLoaded",(function(){n("age_gate_shown"),n("agegateshown")}))})();

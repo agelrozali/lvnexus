@@ -1,0 +1,65 @@
+<div class="omnisend-woo-landing-page">
+    <div class="omnisend-woo-landing-page-content">
+        <div class="omnisend-woo-landing-caption omnisend-content-caption">FEATURES</div>
+        <div class="omnisend-content-h1 omnisend-woo-landing-h1">What if email marketing was easy?</div>
+        <div class="omnisend-woo-text-body">
+            Make your email marketing easier with Omnisend — collect and keep visitors with less stress. Send personalized emails.
+        </div>
+        <div class="omnisend-woo-spacing-mv-20">
+            <img
+                class="omnisend-woo-features-images"
+                src="<?php echo plugins_url( 'images/features-1.svg', __FILE__ ); ?>"
+                alt="Omnisend features"
+            />
+        </div>
+        <div class="omnisend-woo-spacing-mb-30">
+            <img
+                class="omnisend-woo-features-images"
+                src="<?php echo plugins_url( 'images/features-2.svg', __FILE__ ); ?>"
+                alt="Omnisend features"
+            />
+        </div>
+        <img
+            class="omnisend-woo-plugins-list-image"
+            src="<?php echo plugins_url( 'images/plugin-list.svg', __FILE__ ); ?>"
+            alt="omnisend-plugins-list"
+        />
+        <img
+            class="omnisend-woo-plugins-list-image"
+            src="<?php echo plugins_url( 'images/support-aword.svg', __FILE__ ); ?>"
+            alt="omnisend-support-aword"
+        />
+        <?php if ( Omnisend_Helper::are_permalinks_correct() ) {
+        ?>
+        <div class="omnisend-woo-landing-page-banner">
+            <div class="omnisend-woo-landing-page-banner-content">
+                <div class="omnisend-content-h1 omnisend-woo-landing-page-banner-header">
+                    Join the <br />
+                    <?php echo Omnisend_Content::get_prop( 'current_ecommerce_brands' ) ?>
+                    ecommerce brands 
+                </div>
+                <div class="omnisend-woo-landing-page-banner-text">
+                    Quickly connect Omnisend to turn visitors into subscribers and keep them engaged with newsletters and targeted emails.
+                </div>
+                <div class="omnisend-woo-landing-page-banner-buttons">
+                    <a target="_blank" href="<?php echo esc_url( Omnisend_Install::get_registration_url() ); ?>">
+                        <button id="banner-create-new-account" class="omnisend-primary-button primary-btn-mod omnisend-connect-action">
+                            Create new account
+                        </button>
+                    </a>
+                    <a target="_blank" href="<?php echo esc_url( Omnisend_Install::get_connecting_url() ); ?>">
+                        <button
+                            id="banner-connect-your-account"
+                            class="omnisend-secondary-button secondary-btn-mod omnisend-connect-action"
+                        >
+                            Connect your account
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <?php
+        } 
+        ?>
+    </div>
+</div>

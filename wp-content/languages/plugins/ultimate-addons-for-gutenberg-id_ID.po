@@ -1,0 +1,905 @@
+# Translation of Plugins - Spectra &#8211; WordPress Gutenberg Blocks - Stable (latest release) in Indonesian
+# This file is distributed under the same license as the Plugins - Spectra &#8211; WordPress Gutenberg Blocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-05 13:46:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: id\n"
+"Project-Id-Version: Plugins - Spectra &#8211; WordPress Gutenberg Blocks - Stable (latest release)\n"
+
+#: includes/blocks/modal/block.php:17 dist/blocks.js:17
+msgid "This block allows you to add modal popup."
+msgstr "Blok ini memungkinkan Anda menambahkan modal popup."
+
+#: includes/blocks/modal/block.php:16 dist/blocks-placeholder.js:26
+#: dist/blocks.js:17
+msgid "Modal"
+msgstr "Modal"
+
+#: includes/blocks/register/block.php:17
+msgid "This block lets you add a user register form."
+msgstr "Blok ini memungkinkan Anda menambahkan formulir pendaftaran pengguna."
+
+#: includes/blocks/register/block.php:16
+msgid "Registration Form"
+msgstr "Formulir Pendaftaran"
+
+#: includes/blocks/login/block.php:17
+msgid "This block lets you add a user login form."
+msgstr "Blok ini memungkinkan Anda menambahkan formulir login pengguna."
+
+#: includes/blocks/login/block.php:16
+msgid "Login Form"
+msgstr "Formulir Masuk"
+
+#: includes/blocks/image-gallery/block.php:17 dist/blocks.js:17
+msgid "Create a highly customizable image gallery"
+msgstr "Buat galeri gambar yang sangat bisa dimodifikasi"
+
+#: includes/blocks/image-gallery/block.php:16 dist/blocks-placeholder.js:20
+#: dist/blocks.js:17
+msgid "Image Gallery"
+msgstr "Galeri Gambar"
+
+#: includes/blocks/counter/block.php:17 dist/blocks.js:17
+msgid "This block allows you to add number counter."
+msgstr "Blok ini memungkinkan Anda menambahkan penghitung nomor."
+
+#: includes/blocks/counter/block.php:16 dist/blocks-placeholder.js:14
+#: dist/blocks.js:17
+msgid "Counter"
+msgstr "Penghitung"
+
+#: includes/blocks/counter/attributes.php:29 dist/blocks.js:1
+msgid "Add Your Title Here…"
+msgstr "Tambahkan Judul Anda disini…"
+
+#: blocks-config/image-gallery/class-spectra-image-gallery.php:1140
+#: dist/blocks.js:17
+msgid "Unable to load image"
+msgstr "Tidak dapat memuat gambar"
+
+#: blocks-config/image-gallery/class-spectra-image-gallery.php:409
+#: includes/blocks/image-gallery/attributes.php:118 dist/blocks.js:1
+#: dist/blocks.js:17
+msgid "Load More Images"
+msgstr "Muat Lebih Banyak Gambar"
+
+#: blocks-config/image-gallery/class-spectra-image-gallery.php:178
+#: includes/blocks/image-gallery/attributes.php:56 dist/blocks.js:1
+#: dist/blocks.js:17
+msgid "No Caption"
+msgstr "Tanpa Keterangan"
+
+#: includes/blocks/how-to/block.php:16 dist/blocks-placeholder.js:18
+#: dist/blocks.js:17
+msgid "How To"
+msgstr "Petunjuk cara"
+
+#: lib/wp-background-processing/class-uagb-wp-background-process.php:426
+msgid "Every %d Minutes"
+msgstr "Setiap %d Menit"
+
+#: includes/blocks/forms-upload/block.php:15
+msgid "Add a attachment in your form."
+msgstr "Tambahkan lampiran di formulir Anda"
+
+#: includes/blocks/forms-upload/block.php:14
+msgid "Upload"
+msgstr "Unggah"
+
+#. translators: %s: PHP version
+#: ultimate-addons-for-gutenberg.php:38
+msgid "Spectra requires PHP version %s+, plugin is currently NOT RUNNING."
+msgstr "Spectra membutuhkan PHP versi %s+, plugin saat ini TIDAK BERFUNGSI."
+
+#: includes/blocks/wp-search/block.php:17 dist/blocks.js:17
+msgid "Add a search widget to let users search posts from your website."
+msgstr "Tambahkan widget pencarian untuk memungkinkan pengguna mencari posting dari situs web Anda."
+
+#: includes/blocks/testimonial/block.php:17
+msgid "Display customer testimonials with customizable layouts."
+msgstr "Tampilkan testimoni konsumen dengan tata letak yang dapat dikostumisasi."
+
+#: includes/blocks/team/block.php:17 dist/blocks.js:17
+msgid "Showcase your team by displaying info and social media profiles."
+msgstr "Pamerkan tim Anda dengan menampilkan info dan profil media sosial."
+
+#: includes/blocks/taxonomy-list/block.php:17 dist/blocks.js:17
+msgid "Display your content categorized as per post type."
+msgstr "Tampilkan konten Anda yang dikategorikan sesuai tipe artikel."
+
+#: includes/blocks/tabs/block.php:17 dist/blocks.js:17
+msgid "Display your content under different tabs."
+msgstr "Tampilkan konten Anda dalam tab yang berbeda."
+
+#: includes/blocks/tabs-child/block.php:15 dist/blocks.js:17
+msgid "Display your content in a tab."
+msgstr "Tampilkan konten Anda di dalam tab."
+
+#: includes/blocks/table-of-contents/block.php:17 dist/blocks.js:17
+msgid "Add a table of contents to allow page navigation."
+msgstr "Tambahkan daftar isi untuk memungkinkan navigasi halaman."
+
+#: includes/blocks/star-rating/block.php:17 dist/blocks.js:17
+msgid "Display customizable star ratings on your page."
+msgstr "Tampilkan rating bintang di halaman Anda."
+
+#: includes/blocks/social-share/block.php:17
+msgid "Share your content on different social media platforms."
+msgstr "Bagikan konten Anda di berbagai platform media sosial."
+
+#: includes/blocks/social-share-child/block.php:15
+msgid "Share your content on this social media platform."
+msgstr "Bagikan konten Anda di platform media sosial ini."
+
+#: includes/blocks/section/block.php:17 dist/blocks.js:17
+msgid "Outer wrap section that allows you to add other blocks within it."
+msgstr "Bagian bungkus luar yang memungkinkan Anda menambahkan blok lain di dalamnya."
+
+#: includes/blocks/section/block.php:16 dist/blocks.js:17
+msgid "Advanced Row"
+msgstr "Baris Tingkat Lanjut"
+
+#: includes/blocks/review/block.php:17 dist/blocks.js:17
+msgid "Add reviews to items with Schema support."
+msgstr "Tambahkan review ke item dengan dukungan Schema."
+
+#: includes/blocks/review/block.php:16 dist/blocks-placeholder.js:30
+#: dist/blocks.js:17
+msgid "Review"
+msgstr "Ulasan"
+
+#: includes/blocks/restaurant-menu/block.php:17 dist/blocks.js:17
+msgid "Create an attractive price list for your products."
+msgstr "Buat daftar harga yang atraktif untuk produk Anda."
+
+#: includes/blocks/restaurant-menu-child/block.php:15 dist/blocks.js:17
+msgid "Add information for this product."
+msgstr "Tambahkan informasi untuk produk ini."
+
+#: includes/blocks/post-title/block.php:16 dist/blocks.js:17
+msgid "Customize your post title."
+msgstr "Kustomisasi judul artikel Anda."
+
+#: includes/blocks/post-timeline/block.php:17 dist/blocks.js:17
+msgid "Create an attractive timeline to display your posts."
+msgstr "Buat linimasa yang atraktif untuk menampilkan artikel Anda."
+
+#: includes/blocks/post-taxonomy/block.php:15 dist/blocks.js:17
+msgid "Show your post's under categories."
+msgstr "Tampilkan artikel Anda di bawah kategori."
+
+#: includes/blocks/post-taxonomy/block.php:14 dist/blocks.js:17
+msgid "Post Taxonomy"
+msgstr "Taksonomi Artikel"
+
+#: includes/blocks/post-meta/block.php:15 dist/blocks.js:17
+msgid "Show your post meta details."
+msgstr "Tampilkan detail meta artikel Anda."
+
+#: includes/blocks/post-masonry/block.php:17 dist/blocks.js:17
+msgid "Display your posts in a masonary layout."
+msgstr "Tampilkan artikel Anda dalam tata letak masonry."
+
+#: includes/blocks/post-image/block.php:15 dist/blocks.js:17
+msgid "Customize your post image."
+msgstr "Kustomisasi gambar artikel Anda."
+
+#: includes/blocks/post-grid/block.php:17 dist/blocks.js:17
+msgid "Display your posts in a grid layout."
+msgstr "Tampilkan artikel Anda dalam tata letak kisi."
+
+#: includes/blocks/post-excerpt/block.php:16
+msgid "Show your post's excerpt "
+msgstr "Tampilkan kutipan artikel Anda "
+
+#: includes/blocks/post-carousel/block.php:17 dist/blocks.js:17
+msgid "Display your posts in a sliding carousel layout."
+msgstr "Tampilkan posting Anda dalam tata letak korsel geser."
+
+#: includes/blocks/post-button/block.php:15 dist/blocks.js:17
+msgid "Customize this post button."
+msgstr "Kustomisasi tombol artikel ini."
+
+#: includes/blocks/masonry-gallery/block.php:14
+msgid "Display your core gallery in a masonary layout."
+msgstr "Tampilkan galeri inti Anda dalam tata letak masonry."
+
+#: includes/blocks/marketing-button/block.php:17 dist/blocks.js:17
+msgid "Add a marketing call to action button with a short description."
+msgstr "Tambahkan tombol call to action pemasaran dengan deskripsi singkat."
+
+#: includes/blocks/lottie/block.php:17 dist/blocks.js:17
+msgid "Add customizable lottie animation on your page."
+msgstr "Tambahkan animasi lottie yang dapat dimodifikasi ke halaman Anda."
+
+#: includes/blocks/lottie/block.php:16 dist/blocks-placeholder.js:24
+#: dist/blocks.js:17
+msgid "Lottie Animation"
+msgstr "Animasi Lottie"
+
+#: includes/blocks/inline-notice/block.php:17 dist/blocks.js:17
+msgid "Highlight important information using inline notice block."
+msgstr "Sorot informasi penting menggunakan blok catatan inline."
+
+#: includes/blocks/info-box/block.php:17
+msgid "Add image/icon, seperator and text description using a single block."
+msgstr "Tambahkan gambar/ikon, pembatas dan deskripsi teks menggunakan sebuah blok."
+
+#: includes/blocks/image/block.php:17 dist/blocks.js:13
+msgid "Add images on your webpage with multiple customization options."
+msgstr "Tambahkan gambar ke halaman situs Anda dengan beragam pilihan kostumisasi."
+
+#: includes/blocks/icon-list/block.php:17 dist/blocks.js:17
+msgid "Create a list highlighted with icons/images."
+msgstr "Buat daftar yang disorot dengan ikon/gambar."
+
+#: includes/blocks/icon-list-child/block.php:15 dist/blocks.js:17
+msgid "Add and customize content for this list component."
+msgstr "Tambahkan dan kostumisasi konten untuk komponen daftar ini."
+
+#: includes/blocks/how-to/block.php:17 dist/blocks.js:17
+msgid "Add instructions/steps on processes using how to block."
+msgstr "Tambahkan instruksi/langkah pada proses menggunakan bagaimana cara memakai blok."
+
+#: includes/blocks/how-to-step/block.php:14 dist/blocks.js:17
+msgid "Add relevant content for this step."
+msgstr "Tambahkan konten relevan untuk langkah ini."
+
+#: includes/blocks/how-to-step/block.php:13 dist/blocks.js:1 dist/blocks.js:17
+msgid "Step"
+msgstr "Langkah"
+
+#: includes/blocks/google-map/block.php:17 dist/blocks.js:17
+msgid "Show a Google Map location on your website."
+msgstr "Tampilkan lokasi Google Map di situs web Anda."
+
+#: includes/blocks/gf-styler/block.php:17 dist/blocks.js:17
+msgid "Highly customize and style your forms created by Gravity Forms."
+msgstr "Kostumisasi dan tata formulir Anda yang dibuat dengan Gravity Form."
+
+#: includes/blocks/gf-styler/block.php:16 dist/blocks.js:17
+msgid "Gravity Form Designer"
+msgstr "Desainer Gravity Form"
+
+#: includes/blocks/forms/block.php:17 dist/blocks.js:17
+msgid "Add easily customizable forms to gather information."
+msgstr "Tambahkan formulir yang mudah dikostumisasi untuk mengumpulkan informasi."
+
+#: includes/blocks/forms/block.php:16 dist/blocks-placeholder.js:16
+#: dist/blocks.js:17
+msgid "Form"
+msgstr "Formulir"
+
+#: includes/blocks/forms/attributes.php:35 dist/blocks.js:1
+msgid "Spectra Form"
+msgstr "Formulir Spectra"
+
+#: includes/blocks/forms-url/block.php:16 dist/blocks.js:17
+msgid "Add a URL input field in your form."
+msgstr "Tambahkan ruas input URL di formulir Anda."
+
+#: includes/blocks/forms-toggle/block.php:15 dist/blocks.js:17
+msgid "Add a toggle button in your form."
+msgstr "Tambahkan tombol toggle di formulir Anda."
+
+#: includes/blocks/forms-textarea/block.php:15
+msgid "Add a text field in your form"
+msgstr "Tambahkan ruas teks di formulir Anda"
+
+#: includes/blocks/forms-select/block.php:16 dist/blocks.js:17
+msgid "Add a select dropdown to list choices."
+msgstr "Tambahkan dropdown ke daftar pilihan."
+
+#: includes/blocks/forms-radio/block.php:15 dist/blocks.js:17
+msgid "Add radio select boxes to allow a single choice from options."
+msgstr "Tambahkan kotak pilihan radio untuk memperbolehkan pilihan tunggal dari opsi."
+
+#: includes/blocks/forms-phone/block.php:15
+msgid "Add a phone number field in your form"
+msgstr "Tambahkan ruas nomor telepon di formulir Anda"
+
+#: includes/blocks/forms-name/block.php:15
+msgid "Add a name field in your form"
+msgstr "Tambahkan ruas nama di formulir Anda"
+
+#: includes/blocks/forms-hidden/block.php:15
+msgid "Add a hidden field in your form to pass data"
+msgstr "Tambahkan ruas tersembunyi di formulir Anda untuk meneruskan data"
+
+#: includes/blocks/forms-email/block.php:15
+msgid "Add an email address field in your form"
+msgstr "Tambahkan ruas alamat email di formulir Anda"
+
+#: includes/blocks/forms-date/block.php:15 dist/blocks.js:17
+msgid "Add a calendar based date picker in your form."
+msgstr "Tambahkan pemilih tanggal berbasis kalender di formulir Anda."
+
+#: includes/blocks/forms-checkbox/block.php:15
+msgid "Add checkboxes to allow mulitple choices from optons."
+msgstr "Tambahkan checkbox untuk mengizinkan beberapa pilihan dari opsi."
+
+#: includes/blocks/forms-accept/block.php:15 dist/blocks.js:17
+msgid "Add a consent statement with a checkbox in your form."
+msgstr "Tambahkan pernyataan persetujuan dengan checkbox di formulir Anda."
+
+#: includes/blocks/faq/block.php:17 dist/blocks.js:17
+msgid "Add accordions/FAQ schema to your page."
+msgstr "Tambahkan skema accordion/Tanya Jawab ke halaman Anda."
+
+#: includes/blocks/faq/block.php:16 dist/blocks-placeholder.js:15
+#: dist/blocks.js:17
+msgid "FAQ"
+msgstr "Tanya Jawab"
+
+#: includes/blocks/faq-child/block.php:15
+msgid "Add a frequently asked question/accordian to display information."
+msgstr "Tambahkan pertanyaan yang sering diajukan/accordion untuk menampilkan informasi."
+
+#: includes/blocks/faq-child/block.php:14 dist/blocks.js:17
+msgid "FAQ Child"
+msgstr "Tanya Jawab Turunan"
+
+#: includes/blocks/content-timeline/block.php:17 dist/blocks.js:13
+msgid "Create a timeline displaying contents of your site."
+msgstr "Buat lini masa yang menampilkan konten situs Anda."
+
+#: includes/blocks/content-timeline-child/block.php:15
+msgid "Add and customize displaying content of this timeline."
+msgstr "Tambah dan kostumisasi tampilan konten timeline ini."
+
+#: includes/blocks/container/block.php:17 dist/blocks.js:11
+msgid "Create beautiful layouts with flexbox powered container block."
+msgstr "Buat tata letak yang indah dengan blok kontainer bertenaga flexbox."
+
+#: includes/blocks/container/block.php:16 dist/blocks-placeholder.js:13
+#: dist/blocks.js:11 dist/blocks.js:17
+msgid "Container"
+msgstr "Kontainer"
+
+#: includes/blocks/columns/block.php:17 dist/blocks.js:17
+msgid "Insert a number of columns within a single row."
+msgstr "Menyisipkan sejumlah kolom dalam satu baris."
+
+#: includes/blocks/column/block.php:15
+msgid "Immediate child of Advanced Columns."
+msgstr "Anak langsung dari Kolom Lanjutan."
+
+#: includes/blocks/cf7-styler/block.php:17
+msgid "Highly customize and style your Contact Form 7 forms."
+msgstr "Kostumisasi dan tata formulir Contact Form 7 Anda."
+
+#: includes/blocks/cf7-styler/block.php:16 dist/blocks.js:17
+msgid "Contact Form 7 Designer"
+msgstr "Desainer Contact Form 7"
+
+#: includes/blocks/call-to-action/block.php:17 dist/blocks.js:13
+msgid "Add a button along with heading and description."
+msgstr "Tambahkan tombol bersama dengan judul dan deskripsi."
+
+#: includes/blocks/buttons/block.php:17 dist/blocks.js:13
+msgid "Add multiple buttons to redirect user to different webpages."
+msgstr "Tambahkan beberapa tombol untuk mengarahkan pengguna ke halaman web yang berbeda."
+
+#: includes/blocks/buttons/block.php:16 dist/blocks-placeholder.js:11
+#: dist/blocks.js:13
+msgid "Buttons"
+msgstr "Tombol"
+
+#: includes/blocks/buttons-child/block.php:15
+msgid "Customize this button as per your need."
+msgstr "Kustomisasi tombol ini sesuai kebutuhan Anda."
+
+#: includes/blocks/blockquote/block.php:17 dist/blocks.js:13
+msgid "Display qoutes/quoted texts using blockquote."
+msgstr "Tampilkan kutipan/teks yang dikutip menggunakan blockquote."
+
+#: includes/blocks/advanced-heading/block.php:17 dist/blocks.js:11
+msgid "Add heading, sub heading and a separator using one block."
+msgstr "Tambahkan judul, sub judul dan pembatas menggunakan satu blok."
+
+#: classes/class-uagb-rollback.php:165
+msgid "Spectra <p>Rollback to Previous Version</p>"
+msgstr "Spectra <p>Kembali ke Versi Sebelumnya</p>"
+
+#: classes/class-uagb-admin.php:218
+msgid "Wow! The Spectra has already powered over 5 pages on your website!"
+msgstr "Wow! Spectra telah mendukung lebih dari 5 halaman di situs web Anda!"
+
+#: classes/class-uagb-admin-helper.php:406
+msgid "Filter added through any 3rd Party Theme/Plugin."
+msgstr "Filter ditambahkan melalui Tema/Plugin Pihak ke-3."
+
+#: classes/class-uagb-admin-helper.php:402
+msgid "Astra Theme"
+msgstr "Tema Astra"
+
+#: blocks-config/forms/class-uagb-forms.php:100
+#: blocks-config/forms/class-uagb-forms.php:116
+msgid "Please try logging in again to verify that you are not a robot."
+msgstr "Silakan coba masuk lagi untuk memverifikasi bahwa Anda bukan robot."
+
+#: admin-core/api/common-settings.php:99 classes/class-uagb-rest-api.php:325
+msgid "Sorry, you cannot list resources."
+msgstr "Maaf, Anda tidak dapat mencantumkan sumber daya."
+
+#: admin-core/ajax/common-settings.php:164
+#: admin-core/ajax/common-settings.php:198
+#: admin-core/ajax/common-settings.php:232
+#: admin-core/ajax/common-settings.php:267
+#: admin-core/ajax/common-settings.php:345
+#: admin-core/ajax/common-settings.php:380
+#: admin-core/ajax/common-settings.php:415
+#: admin-core/ajax/common-settings.php:450
+#: admin-core/ajax/common-settings.php:485
+#: admin-core/ajax/common-settings.php:520
+#: admin-core/ajax/common-settings.php:554
+#: admin-core/ajax/common-settings.php:589
+#: admin-core/ajax/common-settings.php:623
+#: admin-core/ajax/common-settings.php:657
+#: admin-core/ajax/common-settings.php:691
+#: admin-core/ajax/common-settings.php:725
+#: admin-core/ajax/common-settings.php:781
+#: admin-core/ajax/common-settings.php:810
+#: admin-core/ajax/common-settings.php:845
+#: admin-core/ajax/common-settings.php:879
+#: admin-core/ajax/common-settings.php:913
+#: admin-core/ajax/common-settings.php:948
+#: admin-core/ajax/common-settings.php:983
+#: admin-core/ajax/common-settings.php:1024
+#: admin-core/ajax/common-settings.php:1061
+#: admin-core/ajax/common-settings.php:1098
+#: admin-core/ajax/common-settings.php:1136
+#: admin-core/ajax/common-settings.php:1190
+#: admin-core/ajax/common-settings.php:1248
+#: admin-core/ajax/common-settings.php:1283
+#: classes/class-uagb-init-blocks.php:404
+msgid "Successfully saved data!"
+msgstr "Data berhasil disimpan!"
+
+#: admin-core/ajax/common-settings.php:157
+#: admin-core/ajax/common-settings.php:191
+#: admin-core/ajax/common-settings.php:225
+#: admin-core/ajax/common-settings.php:260
+#: admin-core/ajax/common-settings.php:338
+#: admin-core/ajax/common-settings.php:373
+#: admin-core/ajax/common-settings.php:408
+#: admin-core/ajax/common-settings.php:443
+#: admin-core/ajax/common-settings.php:478
+#: admin-core/ajax/common-settings.php:513
+#: admin-core/ajax/common-settings.php:547
+#: admin-core/ajax/common-settings.php:581
+#: admin-core/ajax/common-settings.php:616
+#: admin-core/ajax/common-settings.php:650
+#: admin-core/ajax/common-settings.php:684
+#: admin-core/ajax/common-settings.php:718
+#: admin-core/ajax/common-settings.php:752
+#: admin-core/ajax/common-settings.php:838
+#: admin-core/ajax/common-settings.php:872
+#: admin-core/ajax/common-settings.php:906
+#: admin-core/ajax/common-settings.php:941
+#: admin-core/ajax/common-settings.php:976
+#: admin-core/ajax/common-settings.php:1011
+#: admin-core/ajax/common-settings.php:1051
+#: admin-core/ajax/common-settings.php:1088
+#: admin-core/ajax/common-settings.php:1125
+#: admin-core/ajax/common-settings.php:1163
+#: admin-core/ajax/common-settings.php:1241
+#: admin-core/ajax/common-settings.php:1276
+msgid "No post data found!"
+msgstr "Tidak ada data artikel yang ditemukan!"
+
+#: admin-core/ajax/ajax-errors.php:61
+msgid "Sorry, something went wrong."
+msgstr "Maaf, ada yang salah."
+
+#: admin-core/ajax/ajax-errors.php:60
+msgid "Nonce validation failed"
+msgstr "Validasi nonce gagal"
+
+#: admin-core/ajax/ajax-errors.php:59
+msgid "Sorry, you are not allowed to do this operation."
+msgstr "Maaf, Anda tidak diizinkan untuk melakukan tindakan ini."
+
+#. Plugin Name of the plugin
+#: admin-core/inc/admin-menu.php:224 classes/class-uagb-admin-helper.php:394
+#: classes/class-uagb-init-blocks.php:441
+msgid "Spectra"
+msgstr "Spectra"
+
+#: includes/blocks/star-rating/block.php:16 dist/blocks-placeholder.js:32
+#: dist/blocks.js:17
+msgid "Star Ratings"
+msgstr "Rating Bintang"
+
+#: includes/blocks/masonry-gallery/block.php:13
+#: admin-core/assets/build/dashboard-app.js:1 dist/blocks.js:17
+msgid "Masonry Gallery"
+msgstr "Galeri Masonry"
+
+#: includes/blocks/forms-accept/block.php:14 dist/blocks.js:17
+msgid "Accept"
+msgstr "Terima"
+
+#: includes/blocks/forms-date/block.php:14 dist/blocks.js:17
+msgid "Datepicker"
+msgstr "Pemilih Tanggal"
+
+#: includes/blocks/forms-toggle/block.php:14 dist/blocks.js:1 dist/blocks.js:17
+msgid "Toggle"
+msgstr "Toggle"
+
+#: includes/blocks/forms-select/block.php:15 dist/blocks.js:17
+msgid "Select"
+msgstr "Pilih"
+
+#: includes/blocks/forms-radio/block.php:14 dist/blocks.js:17
+msgid "Radio"
+msgstr "Radio"
+
+#: includes/blocks/forms-checkbox/block.php:14 dist/blocks.js:17
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: includes/blocks/forms-textarea/block.php:14 dist/blocks.js:17
+msgid "Textarea"
+msgstr "Teks Area"
+
+#: includes/blocks/forms-phone/block.php:14 dist/blocks.js:17
+msgid "Phone"
+msgstr "Telepon"
+
+#: includes/blocks/forms-hidden/block.php:14 dist/blocks.js:11
+#: dist/blocks.js:17
+msgid "Hidden"
+msgstr "Tersembunyi"
+
+#: includes/blocks/forms/attributes.php:168 dist/blocks.js:1 dist/blocks.js:17
+msgid "Please fill up the above captcha."
+msgstr "Silakan isi captcha di atas."
+
+#: includes/blocks/forms/attributes.php:121 dist/blocks.js:1 dist/blocks.js:17
+msgid "There has been some error while submitting the form. Please verify all form fields again."
+msgstr "Ada beberapa kesalahan saat mengirimkan formulir. Harap verifikasi kembali semua bidang formulir."
+
+#: includes/blocks/forms/attributes.php:69 dist/blocks.js:1 dist/blocks.js:17
+msgid "Form Submission"
+msgstr "Pengiriman Formulir"
+
+#: includes/blocks/forms/attributes.php:40
+msgid "The form has been submitted Successfully!"
+msgstr "Formulir telah berhasil dikirimkan!"
+
+#: includes/blocks/forms/attributes.php:34 dist/blocks.js:1 dist/blocks.js:17
+msgid "Submit"
+msgstr "Kirim"
+
+#: includes/blocks/tabs/block.php:16 dist/blocks-placeholder.js:34
+#: dist/blocks.js:17
+msgid "Tabs"
+msgstr "Tab"
+
+#: includes/blocks/post-image/block.php:14 dist/blocks.js:17
+msgid "Post Image"
+msgstr "Gambar Artikel"
+
+#: includes/blocks/post-meta/block.php:14 dist/blocks.js:17
+msgid "Post Meta"
+msgstr "Meta Artikel"
+
+#: includes/blocks/post-excerpt/block.php:15 dist/blocks.js:17
+msgid "Post Excerpt"
+msgstr "Kutipan Artikel"
+
+#: includes/blocks/post-button/block.php:14 dist/blocks.js:17
+msgid "Post Button"
+msgstr "Tombol Artikel"
+
+#: includes/blocks/post-title/block.php:15 dist/blocks.js:17
+msgid "Post Title"
+msgstr "Judul Artikel"
+
+#: includes/blocks/content-timeline-child/block.php:14 dist/blocks.js:13
+msgid "Content Timeline Child"
+msgstr "Konten Lini Masa Anak"
+
+#: classes/class-uagb-admin.php:114
+msgid "Error occurred, The version selected is invalid. Try selecting different version."
+msgstr "Terjadi kesalahan, versi yang dipilih tidak valid. Coba pilih versi yang berbeda."
+
+#: classes/class-uagb-admin.php:101 classes/class-uagb-admin.php:132
+#: admin-core/assets/build/dashboard-app.js:1
+msgid "Rollback to Previous Version"
+msgstr "Kembali ke Versi Sebelumnya"
+
+#: classes/class-uagb-admin.php:100
+msgid "You do not have permission to access this page."
+msgstr "Anda tidak memiliki izin untuk mengakses halaman ini"
+
+#: includes/blocks/restaurant-menu-child/block.php:14 dist/blocks.js:17
+msgid "Price List-Child"
+msgstr "Daftar Harga-Anak"
+
+#. translators: %s Product title
+#: admin/bsf-analytics/class-bsf-analytics.php:410
+msgid "Allow %s products to track non-sensitive usage tracking data."
+msgstr "Izinkan produk %s melacak data pelacakan penggunaan yang tidak sensitif."
+
+#: includes/blocks/taxonomy-list/block.php:16 dist/blocks-placeholder.js:35
+#: dist/blocks.js:17
+msgid "Taxonomy List"
+msgstr "Daftar Taksonomi"
+
+#: blocks-config/taxonomy-list/class-uagb-taxonomy-list.php:125
+#: includes/blocks/taxonomy-list/attributes.php:92
+msgid "Taxonomy Not Available."
+msgstr "Taksonomi Tidak Tersedia."
+
+#: includes/blocks/wp-search/block.php:16 dist/blocks.js:17
+msgid "Search"
+msgstr "Cari"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:418
+msgid "Learn More."
+msgstr "Pelajari Lebih Lanjut."
+
+#: admin/bsf-analytics/class-bsf-analytics.php:413
+msgid " This will be applicable for all sites from the network."
+msgstr " Ini akan berlaku untuk semua situs dari jaringan."
+
+#: admin/bsf-analytics/class-bsf-analytics.php:366
+msgid "Usage Tracking"
+msgstr "Pelacakan Penggunaan"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:260
+msgid "No Thanks"
+msgstr "Tidak Terima Kasih"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:251
+msgid "Yes! Allow it"
+msgstr "Ya! Izinkan"
+
+#. translators: %s usage doc link
+#: admin/bsf-analytics/class-bsf-analytics.php:243
+msgid " Know More."
+msgstr " Ketahui Lebih Lanjut."
+
+#. translators: %s product name
+#: admin/bsf-analytics/class-bsf-analytics.php:216
+msgid "Want to help make <strong>%1s</strong> even more awesome? Allow us to collect non-sensitive diagnostic data and usage information. "
+msgstr "Ingin membantu membuat <strong>%1s</strong> menjadi lebih hebat? Izinkan kami mengumpulkan data diagnostik dan informasi penggunaan yang tidak sensitif. "
+
+#: includes/blocks/inline-notice/block.php:16 dist/blocks-placeholder.js:23
+#: dist/blocks.js:17
+msgid "Inline Notice"
+msgstr "Catatan Inline"
+
+#: includes/blocks/social-share-child/block.php:14 dist/blocks.js:17
+msgid "Social Share Child"
+msgstr "Berbagi Sosial Anak"
+
+#: includes/blocks/forms-email/block.php:14 dist/blocks.js:1 dist/blocks.js:17
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/blocks/forms-url/block.php:15 dist/blocks.js:1 dist/blocks.js:13
+#: dist/blocks.js:17
+msgid "URL"
+msgstr "URL"
+
+#: includes/blocks/forms-name/block.php:14 dist/blocks.js:1 dist/blocks.js:17
+msgid "Name"
+msgstr "Nama"
+
+#: includes/blocks/icon-list-child/block.php:14 dist/blocks.js:13
+#: dist/blocks.js:17
+msgid "Icon"
+msgstr "Ikon"
+
+#: admin-core/inc/admin-menu.php:93 admin-core/assets/build/dashboard-app.js:1
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: includes/blocks/buttons-child/block.php:14 dist/blocks.js:13
+#: dist/blocks.js:17
+msgid "Button"
+msgstr "Tombol"
+
+#: includes/blocks/image/block.php:16 dist/blocks-placeholder.js:21
+#: dist/blocks.js:11 dist/blocks.js:13 dist/blocks.js:17
+msgid "Image"
+msgstr "Gambar"
+
+#: classes/class-uagb-init-blocks.php:563 dist/blocks.js:11 dist/blocks.js:13
+#: dist/blocks.js:17
+msgid "Default"
+msgstr "Standar"
+
+#: classes/class-uagb-init-blocks.php:663 dist/blocks.js:11 dist/blocks.js:13
+#: dist/blocks.js:17
+msgid "None"
+msgstr "Tidak ada"
+
+#: includes/blocks/advanced-heading/block.php:16 dist/blocks-placeholder.js:9
+#: dist/blocks.js:11 dist/blocks.js:13 dist/blocks.js:17
+msgid "Heading"
+msgstr "Judul"
+
+#: blocks-config/table-of-content/class-uagb-table-of-content.php:925
+#: includes/blocks/table-of-contents/attributes.php:19 dist/blocks.js:1
+#: dist/blocks.js:17
+msgid "Add a header to begin generating the table of contents"
+msgstr "Tambahkan header untuk mulai membuat daftar isi"
+
+#: lib/astra-notices/class-astra-notices.php:119
+msgid "WordPress Nonce not validated."
+msgstr "WordPress Nonce tidak divalidasi."
+
+#: classes/class-uagb-init-blocks.php:739
+msgid "You have not added any Gravity Forms yet."
+msgstr "Anda belum menambahkan Gravity Forms 7."
+
+#: classes/class-uagb-init-blocks.php:382
+msgid "Please select a valid Gravity Form."
+msgstr "Pilih Gravity Form yang valid."
+
+#: includes/blocks/marketing-button/block.php:16 dist/blocks-placeholder.js:25
+#: dist/blocks.js:17
+msgid "Marketing Button"
+msgstr "Tombol Marketing"
+
+#: classes/class-uagb-init-blocks.php:424
+msgid "Please select a valid Contact Form 7."
+msgstr "Pilih Contact Form 7 yang valid."
+
+#: classes/class-uagb-init-blocks.php:706
+msgid "You have not added any Contact Form 7 yet."
+msgstr "Anda belum menambahkan Contact Form 7."
+
+#: classes/class-uagb-init-blocks.php:692
+#: classes/class-uagb-init-blocks.php:725 dist/blocks.js:17
+msgid "Select Form"
+msgstr "Pilih Formulir"
+
+#: classes/class-uagb-helper.php:409 dist/blocks.js:17
+msgid "Full"
+msgstr "Penuh"
+
+#: includes/blocks/blockquote/block.php:16 dist/blocks-placeholder.js:10
+#: dist/blocks.js:13
+msgid "Blockquote"
+msgstr "Blockquote"
+
+#. translators: %s: html tags
+#: classes/class-uagb-admin.php:243
+msgid "Spectra requires&nbsp;%3$sBlock Editor%4$s. You can change your editor settings to Block Editor from&nbsp;%1$shere%2$s. Plugin is currently NOT RUNNING."
+msgstr "Spectra membutuhkan&nbsp;%3$sBlock Editor%4$s. Anda dapat mengubah pengaturan editor Anda ke Editor Block dari&nbsp;%1$shere%2$s. Plugin saat ini tidak berfungsi."
+
+#: admin-core/ajax/common-settings.php:130
+msgid "Plugin Successfully Activated"
+msgstr "Plugin Berhasil Diaktifkan"
+
+#. translators: %s: WordPress version
+#: ultimate-addons-for-gutenberg.php:55
+msgid "Spectra requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT RUNNING."
+msgstr "Spectra membutuhkan WordPress versi %s+. Karena Anda menggunakan versi sebelumnya, plugin saat ini TIDAK BERFUNGSI."
+
+#: includes/blocks/restaurant-menu/block.php:16 dist/blocks-placeholder.js:29
+#: dist/blocks.js:17
+msgid "Price List"
+msgstr "Daftar Harga"
+
+#: includes/blocks/column/block.php:14 dist/blocks.js:11 dist/blocks.js:17
+msgid "Column"
+msgstr "Kolom"
+
+#: includes/blocks/columns/block.php:16 dist/blocks.js:17
+msgid "Advanced Columns"
+msgstr "Kolom Tingkat Lanjut"
+
+#: classes/class-uagb-admin.php:224
+msgid "I already did"
+msgstr "Saya sudah melakukannya"
+
+#: classes/class-uagb-admin.php:223
+msgid "Nope, maybe later"
+msgstr "Tidak, mungkin nanti"
+
+#: classes/class-uagb-admin.php:221
+msgid "Ok, you deserve it"
+msgstr "Ok, Anda pantas mendapatkannya"
+
+#: includes/blocks/call-to-action/block.php:16 dist/blocks-placeholder.js:12
+#: dist/blocks.js:1 dist/blocks.js:13 dist/blocks.js:17
+msgid "Call To Action"
+msgstr "Call To Action"
+
+#: includes/blocks/post-masonry/block.php:16 dist/blocks.js:17
+msgid "Post Masonry"
+msgstr "Masonry Artikel"
+
+#: includes/blocks/post-carousel/block.php:16 dist/blocks-placeholder.js:27
+#: dist/blocks.js:17
+msgid "Post Carousel"
+msgstr "Carousel Artikel"
+
+#: includes/blocks/post-timeline/block.php:16 dist/blocks-placeholder.js:39
+#: dist/blocks.js:17
+msgid "Post Timeline"
+msgstr "Lini masa Artikel"
+
+#: blocks-config/post-timeline/class-uagb-post-timeline.php:885
+msgid "No posts found"
+msgstr "Tidak ada artikel yang ditemukan"
+
+#: includes/blocks/testimonial/block.php:16 dist/blocks-placeholder.js:37
+#: dist/blocks.js:17
+msgid "Testimonials"
+msgstr "Testimoni"
+
+#: includes/blocks/icon-list/attributes.php:19
+msgid "Label #1"
+msgstr "Label #1"
+
+#: includes/blocks/icon-list/block.php:16 dist/blocks-placeholder.js:19
+#: dist/blocks.js:17
+msgid "Icon List"
+msgstr "Daftar Ikon"
+
+#: includes/blocks/team/block.php:16 dist/blocks-placeholder.js:36
+#: dist/blocks.js:17
+msgid "Team"
+msgstr "Tim"
+
+#: includes/blocks/social-share/block.php:16 dist/blocks-placeholder.js:31
+#: dist/blocks.js:17
+msgid "Social Share"
+msgstr "Berbagi Sosial"
+
+#: includes/blocks/content-timeline/block.php:16 dist/blocks-placeholder.js:38
+#: dist/blocks.js:13
+msgid "Content Timeline"
+msgstr "Konten Lini Masa"
+
+#: includes/blocks/post-grid/block.php:16 dist/blocks-placeholder.js:28
+#: dist/blocks.js:17
+msgid "Post Grid"
+msgstr "Kisi Artikel"
+
+#: blocks-config/post-timeline/class-uagb-post-timeline.php:523
+#: blocks-config/post/class-uagb-post.php:540
+#: blocks-config/post/class-uagb-post.php:2066
+#: includes/blocks/post-carousel/attributes.php:116
+#: includes/blocks/post-grid/attributes.php:107
+#: includes/blocks/post-masonry/attributes.php:110 dist/blocks.js:1
+#: dist/blocks.js:13 dist/blocks.js:17
+msgid "Read More"
+msgstr "Baca Lebih Lanjut"
+
+#: includes/blocks/google-map/block.php:16 dist/blocks-placeholder.js:17
+#: dist/blocks.js:17
+msgid "Google Maps"
+msgstr "Peta Google"
+
+#: includes/blocks/info-box/block.php:16 dist/blocks-placeholder.js:22
+#: dist/blocks.js:1 dist/blocks.js:13
+msgid "Info Box"
+msgstr "Kotak Info"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.brainstormforce.com"
+msgstr "https://www.brainstormforce.com"
+
+#. Author of the plugin
+msgid "Brainstorm Force"
+msgstr "Brainstorm Force"
+
+#: classes/class-uagb-loader.php:434
+msgid "Install Gutenberg"
+msgstr "Install Gutenberg"

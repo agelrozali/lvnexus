@@ -1,0 +1,701 @@
+@keyframes omnisend-loader-spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* Omnisend typography */
+.omnisend-content-body {
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+.omnisend-content-body.strong {
+	font-weight: 400;
+}
+
+.omnisend-content-lead {
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.omnisend-content-lead.strong {
+	font-weight: 500;
+}
+
+.omnisend-content-h1 {
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: Roboto;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: normal;
+	line-height: 48px;
+}
+
+.omnisend-content-h4 {
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 32px;
+}
+
+.omnisend-content-caption {
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: Roboto;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+/* End Omnisend typography */
+/* Omnisend component styles */
+.omnisend-kb-link {
+	display: inline-flex;
+	align-items: center;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration-line: underline;
+	color: #2f8481;
+	cursor: pointer;
+}
+
+.omnisend-kb-link img {
+	margin-left: 4px;
+}
+
+.omnisend-kb-link:focus,
+.omnisend-kb-link:active,
+.omnisend-kb-link:hover {
+	color: #2f8481;
+}
+
+.omnisend-notice {
+	font-family: 'Roboto';
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 24px;
+	flex-wrap: wrap;
+	padding: 16px 24px;
+	background: #fff4da;
+	border-radius: 4px;
+}
+
+.omnisend-notice.omnisend-notice-error {
+	background: #fededf;
+}
+
+.omnisend-notice.margin-top {
+	margin-top: 24px;
+}
+
+.omnisend-notice.margin-bottom {
+	margin-bottom: 40px;
+}
+
+.omnisend-notice .omnisend-notice-content-container {
+	display: flex;
+	align-items: flex-start;
+	gap: 16px;
+}
+
+.omnisend-notice .omnisend-notice-texts-container {
+	display: grid;
+	gap: 8px;
+}
+
+.omnisend-notice p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	margin: 0;
+}
+
+.omnisend-notice .omnisend-notice-desc {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #3a414c;
+}
+
+.omnisend-notice a {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #2f8481;
+}
+
+.omnisend-notice .omnisend-primary-button {
+	margin-left: 40px;
+}
+
+.omnisend-primary-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #35938f;
+	border-radius: 8px;
+	color: white;
+	height: 40px;
+	border: none;
+	padding: 0 16px;
+	cursor: pointer;
+	gap: 8px;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.omnisend-primary-button.danger {
+	background: #ff5b5d;
+}
+
+.omnisend-primary-button.danger.disabled {
+	pointer-events: none;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #ff5b5d;
+}
+
+.omnisend-primary-button:disabled {
+	pointer-events: none;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.60) 0%, rgba(255, 255, 255, 0.60) 100%), #35938f;
+}
+
+.omnisend-secondary-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	color: #35938f;
+	height: 40px;
+	border: 1px solid #35938f;
+	padding: 8px 16px;
+	cursor: pointer;
+	gap: 8px;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.omnisend-checkbox {
+	height: 16px !important;
+	width: 16px !important;
+}
+
+.omnisend-checkbox:checked::before {
+	width: 22px !important;
+}
+
+.omnisend-input {
+	width: 100%;
+	max-width: 316px;
+	height: 40px;
+}
+
+.omnisend-tab {
+	display: flex;
+	color: grey;
+	font-family: Roboto;
+	font-size: 16px;
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: normal;
+	line-height: 24px;
+	transition: all 0.1s ease-in-out;
+	text-decoration: none;
+	outline: none;
+	box-shadow: none;
+	border: none;
+	cursor: pointer;
+	padding: 1px;
+}
+
+.omnisend-tab:hover,
+.omnisend-tab:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.omnisend-tab.active {
+	color: #1e2423;
+	border-bottom: 2px solid grey;
+}
+
+/* End Omnisend component styles */
+.omnisend-hook-message {
+	background-color: #a9cce3;
+}
+
+.omnisend-logo {
+	margin-top: 32px;
+}
+
+.omnisend-logo img {
+	width: 160px;
+	height: auto;
+}
+
+.clean-log {
+	margin-bottom: 24px !important;
+}
+
+.logging_status {
+	line-height: 19px;
+	padding: 11px 15px;
+	font-size: 14px;
+	text-align: left;
+	margin: 24px 0;
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	display: inline-block;
+}
+
+.logging_enabled {
+	border-left: 4px solid green;
+}
+
+.logging_disabled {
+	border-left: 4px solid #ffba00;
+}
+
+.fixed td.fixed_date {
+	width: 150px;
+}
+
+.fixed td.fixed_type {
+	width: 80px;
+}
+
+.fixed td.fixed_endpoint {
+	width: 65px;
+}
+
+.fixed td.fixed_url {
+	width: 300px;
+}
+
+.plugin-version p {
+	color: #6b747c;
+}
+
+.settings-page {
+	padding-right: 20px;
+}
+
+.settings-page .connected {
+	padding: 24px 0;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	display: flex;
+	gap: 24px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.settings-page .connected .connected-left-block {
+	display: flex;
+	gap: 24px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.settings-page .connected .connected-left-block .tag {
+	padding: 4px 8px;
+	border-radius: 12px;
+	background: #35938f;
+	color: #fff;
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px;
+}
+
+.settings-page .connected a {
+	outline: none;
+	text-decoration: none;
+	display: inline-flex;
+}
+
+.settings-page .settings-section {
+	width: 55%;
+	padding: 32px 0;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+@media screen and (max-width: 960px) {
+	.settings-page .settings-section {
+		width: 100%;
+	}
+}
+
+.settings-page .settings-section .settings-page-title {
+	color: #000;
+	margin: 0;
+}
+
+.settings-page .settings-section .setting-title {
+	color: #1e2423;
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.settings-page .settings-section .setting-control-container {
+	display: flex;
+	gap: 8px;
+	align-items: baseline;
+}
+
+.settings-page .settings-section .setting-control-container .setting-checkbox {
+	position: relative;
+	top: 4px;
+	margin: 0;
+}
+
+.settings-page .settings-section .setting-control-container .setting-input-container {
+	margin-top: 16px;
+}
+
+.settings-page .settings-section .setting-control-container .setting-input-container .setting-input-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.settings-page .settings-section .setting-control-container .inner-control {
+	margin-top: 24px;
+}
+
+.settings-page .settings-section .setting-kb-link {
+	margin-top: 24px;
+}
+
+.settings-page .settings-section .omnisend-navigation-tabs {
+	display: flex;
+	gap: 24px;
+}
+
+.settings-page .sync-stats {
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.settings-page .sync-stats .omnisend-warn {
+	color: red !important;
+}
+
+.settings-page .sync-loader .sync-spinner {
+	display: inline-block;
+	vertical-align: text-bottom;
+	border: 0.25em solid #2b7f13;
+	border-right-color: transparent;
+	border-radius: 50%;
+	width: 14px;
+	height: 14px;
+	animation: omnisend-loader-spin 2s linear infinite;
+}
+
+.settings-page .sync-loader span {
+	color: #2b7f13;
+	padding-left: 5px;
+}
+
+.settings-page .resync-contacts {
+	margin-top: 35px;
+}
+
+.settings-page .notice {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.settings-page .notice.api-key-success-notice {
+	margin-top: 24px;
+}
+
+.connection-container {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-size: 0;
+	background-color: white;
+	padding: 64px 64px 40px 88px;
+	margin-left: -20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.connection-container .connection-info-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 80px;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 1080px;
+}
+
+@media screen and (max-width: 960px) {
+	.connection-container .connection-info-container {
+		justify-content: center;
+	}
+}
+
+.connection-container .connection-info-container .connection-content-left {
+	max-width: 416px;
+}
+
+@media screen and (max-width: 960px) {
+	.connection-container .connection-info-container .connection-content-left {
+		text-align: center;
+	}
+}
+
+.connection-container .connection-info-container .connection-content-left .title-text {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	text-align: left;
+	color: #000;
+	margin: 0;
+}
+
+.connection-container .connection-info-container .connection-content-left .sub-title-text {
+	margin: 0;
+	margin-top: 16px;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	max-width: 640px;
+	color: #1e2423;
+}
+
+@media screen and (max-width: 960px) {
+	.connection-container .connection-info-container .connection-content-left .sub-title-text {
+		text-align: center;
+	}
+}
+
+.connection-container .connection-info-container .connection-content-left .connection-btns {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	margin-top: 32px;
+	margin-bottom: 40px;
+}
+
+.connection-container .connection-info-container .connection-content-left .connection-btns a {
+	outline: none;
+	text-decoration: none;
+	align-self: flex-start;
+}
+
+@media screen and (max-width: 960px) {
+	.connection-container .connection-info-container .connection-content-left .connection-btns a {
+		align-self: center;
+	}
+}
+
+.connection-container .connection-info-container .connection-content-left .connection-btns .create-account-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 304px;
+	height: 52px;
+	background: #2f8481;
+	border-radius: 8px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.connection-container .connection-info-container .connection-content-left .connection-btns .connect-account-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 304px;
+	height: 52px;
+	border-radius: 8px;
+	color: #2f8481;
+	border: 2px solid #2f8481;
+	background-color: transparent;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.connection-container .connection-info-container .connection-content-left .connection-btns .disabled {
+	pointer-events: none;
+}
+
+.connection-container .connection-info-container .connection-content-left .connection-btns .disabled .create-account-btn {
+	background: #aed4d2;
+}
+
+.connection-container .connection-info-container .connection-content-left .connection-btns .disabled .connect-account-btn {
+	color: #aed4d2;
+	border-color: #aed4d2;
+}
+
+.connection-container .connection-info-container .connection-content-right {
+	margin-left: -8px;
+}
+
+.connection-container .connection-info-container .connection-content-right .connection-image {
+	max-width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+	.connection-container {
+		padding: 24px;
+	}
+
+	.connection-btns a,
+	.connection-btns .connect-account-btn,
+	.connection-btns .create-account-btn {
+		width: 100%;
+		max-width: 304px;
+	}
+}
+
+/* Landing page styles */
+.omnisend-woo-landing-page {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: -20px;
+	padding: 0 48px 80px 48px;
+}
+
+.omnisend-woo-landing-page .omnisend-woo-landing-page-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	max-width: 1080px;
+	box-sizing: border-box;
+	color: #1e2423;
+}
+
+.omnisend-woo-landing-page .omnisend-woo-landing-page-content .omnisend-woo-landing-caption {
+	margin-bottom: 16px;
+}
+
+.omnisend-woo-landing-page .omnisend-woo-landing-page-content .omnisend-woo-landing-h1 {
+	margin-bottom: 40px;
+	font-weight: 800;
+}
+
+.omnisend-woo-landing-page .omnisend-woo-landing-page-content .omnisend-woo-text-body {
+	font-family: Roboto;
+	font-size: 22px;
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: normal;
+	line-height: 36px;
+	margin-bottom: 80px;
+}
+
+.omnisend-woo-landing-page .omnisend-woo-landing-page-content .omnisend-woo-features-images {
+	max-width: 100%;
+	display: flex;
+}
+
+.omnisend-woo-landing-page .omnisend-woo-landing-page-content .omnisend-woo-plugins-list-image {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.omnisend-woo-landing-page .omnisend-woo-landing-page-content .omnisend-woo-landing-page-banner {
+	margin-top: 16px;
+	width: 100%;
+	background: #35938f;
+	border-radius: 24px;
+	padding: 48px;
+	box-sizing: border-box;
+}
+
+.omnisend-woo-landing-page .omnisend-woo-landing-page-content .omnisend-woo-landing-page-banner .omnisend-woo-landing-page-banner-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.omnisend-woo-landing-page .omnisend-woo-landing-page-content .omnisend-woo-landing-page-banner .omnisend-woo-landing-page-banner-content .omnisend-woo-landing-page-banner-header {
+	color: #fff;
+	margin-bottom: 24px;
+	max-width: 640px;
+}
+
+.omnisend-woo-landing-page .omnisend-woo-landing-page-content .omnisend-woo-landing-page-banner .omnisend-woo-landing-page-banner-content .omnisend-woo-landing-page-banner-text {
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 32px;
+	color: #fff;
+	max-width: 780px;
+	margin-bottom: 32px;
+}
+
+.omnisend-woo-landing-page .omnisend-woo-landing-page-content .omnisend-woo-landing-page-banner .omnisend-woo-landing-page-banner-content .omnisend-woo-landing-page-banner-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	justify-content: center;
+}
+
+.omnisend-woo-landing-page .omnisend-woo-landing-page-content .omnisend-woo-landing-page-banner .omnisend-woo-landing-page-banner-content .omnisend-woo-landing-page-banner-buttons a {
+	text-decoration: none;
+}
+
+.omnisend-woo-landing-page .omnisend-woo-landing-page-content .omnisend-woo-landing-page-banner .omnisend-woo-landing-page-banner-content .omnisend-woo-landing-page-banner-buttons .primary-btn-mod {
+	width: 300px;
+	height: 52px;
+	background-color: white;
+	color: #35938f;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.omnisend-woo-landing-page .omnisend-woo-landing-page-content .omnisend-woo-landing-page-banner .omnisend-woo-landing-page-banner-content .omnisend-woo-landing-page-banner-buttons .secondary-btn-mod {
+	width: 300px;
+	height: 52px;
+	background-color: transparent;
+	color: white;
+	border-color: white;
+	font-size: 16px;
+	font-weight: 500;
+}

@@ -1,0 +1,65 @@
+.ag-field--paginator {
+    .ag-paginator {
+        &--options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+    }
+
+    small {
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #444;
+        padding: 2px;
+        font-weight: bold;
+        border-radius: 3px;
+        font-size: 10px;
+
+        .dashicons {
+            font-size: inherit;
+            width: auto;
+            height: auto;
+            vertical-align: initial;
+        }
+    }
+
+    .tablenav-pages {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3px;
+        padding: 15px 2px;
+        border: solid #dcdcde;
+        border-width: 0 0 1px 0;
+        margin-bottom: 10px;
+
+        input {
+            width: 50px;
+            -moz-appearance: textfield;
+
+            &::-webkit-outer-spin-button,
+            &::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+        }
+    }
+
+    .ag-paginator--tools {
+        display: flex;
+        padding: 10px 0;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    button.ag-pagninator--clear {
+        &:disabled {
+            .wp-core-ui & {
+                background: transparent !important;
+            }
+        }
+    }
+}

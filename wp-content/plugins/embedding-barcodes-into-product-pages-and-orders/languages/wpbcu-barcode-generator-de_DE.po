@@ -1,0 +1,2879 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Barcode Printing for WooCommerce & Contact Form 7 - "
+"(business)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-02 13:36+0000\n"
+"PO-Revision-Date: 2023-01-23 01:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: wpbcu-barcode-generator"
+
+#: config/jsL10n.php:30
+msgid "\"Generate Barcode\" button CSS selector"
+msgstr "CSS-Selektor für die Schaltfläche \"Barcode generieren\"."
+
+#: class/Barcodes.php:211
+#, php-format
+msgid ""
+"%field% field contains incorrect data. Code 128 supports alphanumeric or "
+"numeric-only barcodes. It can encode all 128 characters of ASCII encoding."
+msgstr ""
+"Das %field%-Feld enthält falsche Daten. Code 128 unterstützt alphanumerische "
+"oder nur numerische Barcodes. Es kann alle 128 Zeichen der ASCII-Codierung "
+"codieren."
+
+#: class/Barcodes.php:220
+msgid ""
+"%field% field contains incorrect data. Code 39 supports 43 characters, "
+"consisting of letters (A-Z), numeric digits (0 through 9) and a number of "
+"special characters (-, ., $, /, +, %, and space)."
+msgstr ""
+"Das %field%-Feld enthält falsche Daten. Code 39 unterstützt 43 Zeichen, "
+"bestehend aus Buchstaben (AZ), Ziffern (0 bis 9) und einer Reihe von "
+"Sonderzeichen (-, ., $, /, +, % und Leerzeichen)."
+
+#: class/Barcodes.php:183
+#, php-format
+msgid ""
+"%field% field contains incorrect data. It must contain 12 digits. 11 digits "
+"and 12th is a checksum digit calculated by formula. Check more on <a "
+"target='_blank' href='https://en.wikipedia.org/wiki/Universal_Product_Code'>"
+"Wiki</a>."
+msgstr ""
+"Das %field%-Feld enthält falsche Daten. Es muss 12 Ziffern enthalten. 11 "
+"Ziffern und 12. ist eine Prüfsummenziffer, die durch Formel berechnet wird. "
+"Weitere Informationen finden Sie im <a target='_blank' href='https://en."
+"wikipedia.org/wiki/Universal_Product_Code'>Wiki</a>."
+
+#: class/Barcodes.php:173
+#, php-format
+msgid ""
+"%field% field contains incorrect data. It must contain 13 digits. 12 digits "
+"and 13th is a checksum digit calculated by formula. Check more on <a "
+"target='_blank' href='https://en.wikipedia."
+"org/wiki/International_Article_Number'>Wiki</a>."
+msgstr ""
+"Das %field%-Feld enthält falsche Daten. Es muss 13 Ziffern enthalten. 12 "
+"Ziffern und 13. ist eine Prüfsummenziffer, die durch Formel berechnet wird. "
+"Weitere Informationen finden Sie im <a target='_blank' href='https://en."
+"wikipedia.org/wiki/International_Article_Number'>Wiki</a>."
+
+#: class/Barcodes.php:202
+#, php-format
+msgid ""
+"%field% field contains incorrect data. It must contain 6 digits. UPC-E is a "
+"variation of UPC-A which allows for a more compact barcode by eliminating "
+"'extra' zeros. Check more on <a target='_blank' href='https://en.wikipedia."
+"org/wiki/Universal_Product_Code#UPC-E'>Wiki</a>."
+msgstr ""
+"Das %field%-Feld enthält falsche Daten. Es muss 6 Ziffern enthalten. UPC-E "
+"ist eine Variation von UPC-A, die einen kompakteren Barcode ermöglicht, "
+"indem „zusätzliche“ Nullen eliminiert werden. Weitere Informationen finden "
+"Sie im <a target='_blank' href='https://en.wikipedia."
+"org/wiki/Universal_Product_Code#UPC-E'>Wiki</a>."
+
+#: class/Barcodes.php:162
+#, php-format
+msgid ""
+"%field% field contains incorrect data. It must contain 8 digits. 7 digits "
+"and 8th is a checksum digit calculated by formula. Check more on <a "
+"target='_blank' href='https://en.wikipedia.org/wiki/EAN-8'>Wiki</a>."
+msgstr ""
+"Das %field%-Feld enthält falsche Daten. Es muss 8 Ziffern enthalten. 7 "
+"Stellen und 8. ist eine Prüfsummenziffer, die durch Formel berechnet wird. "
+"Weitere Informationen finden Sie im <a target='_blank' href='https://en."
+"wikipedia.org/wiki/EAN-8'>Wiki</a>."
+
+#: config/jsL10n.php:249
+msgid "(SKU, ID or other field)"
+msgstr "(SKU, ID oder anderes Feld)"
+
+#: config/jsL10n.php:149 config/jsL10n.php:703
+msgid "+ Add new"
+msgstr "+ Neu hinzufügen"
+
+#: config/jsL10n.php:150
+msgid "+ Copy"
+msgstr "+ Kopieren"
+
+#: config/jsL10n.php:15
+msgid ""
+"0 products has been found with this custom field.<br/>Please check if "
+"entered name matches with actual custom field's name."
+msgstr ""
+"Es wurden 0 Produkte mit diesem benutzerdefinierten Feld gefunden.<br/>Bitte "
+"überprüfen Sie, ob der eingegebene Name mit dem tatsächlichen Namen des "
+"benutzerdefinierten Felds übereinstimmt."
+
+#: config/jsL10n.php:212
+msgid "1 Label per each unique product in order"
+msgstr "1 Etikett für jedes einzigartige Produkt in der Bestellung"
+
+#: config/jsL10n.php:397
+msgid ""
+"<i>\"Color\" and \"Size\" are actual names of attributes, please replace "
+"them to your attribute names.</i>"
+msgstr ""
+"<i>\"Farbe\" und \"Größe\" sind tatsächliche Namen von Attributen, bitte "
+"ersetzen Sie sie durch Ihre Attributnamen.</i>"
+
+#: config/jsL10n.php:724
+msgid "Actual price"
+msgstr "Aktueller Preis"
+
+#: config/jsL10n.php:387
+msgid "Actual price + Tax:"
+msgstr "Aktueller Preis + MwSt.:"
+
+#: config/jsL10n.php:379
+msgid "Actual price:"
+msgstr "Aktueller Preis:"
+
+#: config/jsL10n.php:696
+msgid "Add copies in the nearest empty positions."
+msgstr "Fügen Sie Kopien an den nächsten leeren Positionen hinzu."
+
+#: config/jsL10n.php:695
+msgid "Add copies right after this label."
+msgstr "Fügen Sie Kopien direkt nach diesem Etikett hinzu."
+
+#: config/jsL10n.php:477
+msgid "Add list of products:"
+msgstr "Produktliste hinzufügen:"
+
+#: config/jsL10n.php:782
+msgid ""
+"Add multiple fields for barcode image.<br/>Use shortcodes from documentation "
+"to put any amount of data from product/order information."
+msgstr ""
+"Fügen Sie mehrere Felder für das Barcode-Bild hinzu.<br/>Verwenden Sie "
+"Shortcodes aus der Dokumentation, um eine beliebige Menge an Daten aus "
+"Produkt-/Bestellinformationen hinzuzufügen."
+
+#: config/jsL10n.php:85 config/jsL10n.php:90
+msgid "Add new"
+msgstr "Neue hinzufügen"
+
+#: config/jsL10n.php:125
+msgid "Add prefix to code"
+msgstr "Präfix zum Code hinzufügen"
+
+#: config/jsL10n.php:787
+msgid "Add shortcode field for barcode image"
+msgstr "Shortcode-Feld für Barcode-Bild hinzufügen"
+
+#: config/jsL10n.php:422
+msgid "Add text after value:"
+msgstr "Text nach Wert hinzufügen:"
+
+#: config/jsL10n.php:421
+msgid "Add text before value:"
+msgstr "Text vor Wert hinzufügen:"
+
+#: config/jsL10n.php:492
+msgid "Add tiered price data"
+msgstr "Fügen Sie gestaffelte Preisdaten hinzu"
+
+#: config/jsL10n.php:26
+msgid "Add to page"
+msgstr "Zur Seite hinzufügen"
+
+#: config/jsL10n.php:420
+msgid "Adding text if value exists:"
+msgstr "Text hinzufügen, wenn Wert vorhanden ist:"
+
+#: config/jsL10n.php:451 config/jsL10n.php:466 config/jsL10n.php:546
+#: config/jsL10n.php:561
+msgid "Address 1:"
+msgstr "Adresse 1:"
+
+#: config/jsL10n.php:452 config/jsL10n.php:467 config/jsL10n.php:547
+#: config/jsL10n.php:562
+msgid "Address 2:"
+msgstr "Adresse 2:"
+
+#: config/jsL10n.php:164
+msgid "Admin pages"
+msgstr "Admin-Seiten"
+
+#: config/jsL10n.php:315
+msgid "Advanced"
+msgstr "Advanced (Fortgeschritten)"
+
+#: config/jsL10n.php:803
+msgid "After billing address - [wpo_wcpdf_after_billing_address]"
+msgstr "Nach Rechnungsadresse - [wpo_wcpdf_after_billing_address]"
+
+#: config/jsL10n.php:807
+msgid "After document - [wpo_wcpdf_after_document]"
+msgstr "Nach Dokument - [wpo_wcpdf_after_document]"
+
+#: config/jsL10n.php:801
+msgid "After document label - [wpo_wcpdf_after_document_label]"
+msgstr "Nach Dokumentbezeichnung - [wpo_wcpdf_after_document_label]"
+
+#: config/jsL10n.php:805
+msgid "After order address - [wpo_wcpdf_after_order_data]"
+msgstr "Adresse nach der Bestellung - [wpo_wcpdf_after_order_data]"
+
+#: config/jsL10n.php:806
+msgid "After order details - [wpo_wcpdf_after_order_details]"
+msgstr "Nachbestelldetails - [wpo_wcpdf_after_order_details]"
+
+#: config/jsL10n.php:800
+msgid "After shop name - [wpo_wcpdf_after_shop_name]"
+msgstr "After-Shop-Name - [wpo_wcpdf_after_shop_name]"
+
+#: config/jsL10n.php:240
+msgid "afterRender event available for custom templates only."
+msgstr "afterRender-Ereignis nur für benutzerdefinierte Vorlagen verfügbar."
+
+#: templates/filters/orders-product-categories.php:2
+msgid "All product categories"
+msgstr "Alle Produktkategorien"
+
+#: config/jsL10n.php:192
+msgid "Allow users to change these fields in popup"
+msgstr "Erlauben Sie Benutzern, diese Felder im Popup zu ändern"
+
+#: config/jsL10n.php:258
+msgid "Allows to save"
+msgstr "Speichert"
+
+#: config/jsL10n.php:233
+msgid ""
+"Allows to specify any custom field(s) to use in barcode image generation."
+"<br/>For example use _sku, ID or custom_field as a values."
+msgstr ""
+"Ermöglicht die Angabe beliebiger benutzerdefinierter Felder zur Verwendung "
+"bei der Barcode-Bildgenerierung.<br/>Verwenden Sie beispielsweise _sku, ID "
+"oder custom_field als Wert"
+
+#: config/jsL10n.php:50
+msgid ""
+"Allows you to match label data with actual product/order fields, so users "
+"don't have to do it.<br/>These fields will be applied for any user who "
+"activate this template or select a \"Profile\" which uses this template."
+msgstr ""
+"Ermöglicht es Ihnen, Etikettendaten mit tatsächlichen Produkt-"
+"/Bestellfeldern abzugleichen, sodass Benutzer dies nicht tun müssen.<br/>"
+"Diese Felder werden für jeden Benutzer angewendet, der diese Vorlage "
+"aktiviert oder ein \"Profil\" auswählt, das diese Vorlage verwendet."
+
+#: config/jsL10n.php:302
+msgid "Always use Global attributes"
+msgstr "Verwenden Sie immer globale Attribute"
+
+#: config/jsL10n.php:303
+msgid "Always use Local attributes"
+msgstr "Verwenden Sie immer lokale Attribute"
+
+#: config/jsL10n.php:698
+msgid "Amount:"
+msgstr "Höhe:"
+
+#: config/jsL10n.php:259
+msgid "and"
+msgstr "und"
+
+#: config/jsL10n.php:159
+msgid "API"
+msgstr "API"
+
+#: config/jsL10n.php:306
+msgid "API Documentation"
+msgstr "API-Dokumentation"
+
+#: config/jsL10n.php:5
+msgid "Apply"
+msgstr "Anwenden"
+
+#: config/jsL10n.php:742
+msgid "Appointment Id"
+msgstr "Termin-ID"
+
+#: config/jsL10n.php:691
+msgid "Are you sure to delete %template_name% template"
+msgstr "Möchten Sie die Vorlage %template_name% wirklich löschen?"
+
+#: config/jsL10n.php:692
+msgid "Are you sure to delete this shortcode"
+msgstr "Möchten Sie diesen Shortcode wirklich löschen?"
+
+#: config/jsL10n.php:141
+msgid "Are you sure you want to delete all local storage data of this plugin?"
+msgstr ""
+"Möchten Sie wirklich alle lokalen Speicherdaten dieses Plugins löschen?"
+
+#: config/jsL10n.php:298
+msgid "Are you sure you want to leave without saving changes?"
+msgstr ""
+"Sind Sie sicher, dass Sie ohne Speichern der Änderungen fortfahren möchten?"
+
+#: config/jsL10n.php:260
+msgid "as a profile."
+msgstr "als Profil."
+
+#: config/jsL10n.php:395
+msgid "Attributes example:"
+msgstr "Beispiel für Attribute:"
+
+#: config/jsL10n.php:190
+msgid "Attributes type"
+msgstr "Attributtyp"
+
+#: config/jsL10n.php:394
+msgid "Attributes:"
+msgstr "Attribute:"
+
+#: config/jsL10n.php:767
+msgid "ATUM Barcode"
+msgstr "ATUM-Barcode"
+
+#: config/jsL10n.php:766
+msgid "ATUM SKU"
+msgstr "ATUM-SKU"
+
+#: config/jsL10n.php:634 config/jsL10n.php:663
+msgid "Auto"
+msgstr "Auto"
+
+#: config/jsL10n.php:829
+msgid "Auto-Draft"
+msgstr "Automatischer Entwurf"
+
+#: config/jsL10n.php:262
+msgid "Back"
+msgstr "Der Rücken"
+
+#: class/Products.php:194 config/jsL10n.php:57
+msgid "Barcode"
+msgstr "Strichcode"
+
+#: config/jsL10n.php:132
+msgid "Barcode for order"
+msgstr "Barcode für die Bestellung"
+
+#: config/jsL10n.php:134
+msgid "Barcode for order preview"
+msgstr "Barcode für Bestellvorschau"
+
+#: config/jsL10n.php:122
+msgid "Barcode Generator"
+msgstr "Barcode-Generator"
+
+#: config/jsL10n.php:674
+msgid "Barcode height"
+msgstr "Barcode-Höhe"
+
+#: config/jsL10n.php:365
+msgid "Barcode image URL:"
+msgstr "Barcode-Bild-URL:"
+
+#: config/jsL10n.php:675
+msgid "Barcode position"
+msgstr "Barcode-Position"
+
+#: config/jsL10n.php:121
+msgid "Barcode Printer settings"
+msgstr "Barcode-Druckereinstellungen"
+
+#. Name of the plugin
+msgid "Barcode Printing for WooCommerce & Contact Form 7 - (business)"
+msgstr "Barcode-Druck für WooCommerce & Kontaktformular 7 - (Business)"
+
+#: config/jsL10n.php:222
+msgid "Barcode Templates"
+msgstr "Barcode-Vorlagen"
+
+#: config/jsL10n.php:326
+msgid "Barcode Type:"
+msgstr "Barcode-Typ:"
+
+#: config/jsL10n.php:227
+msgid "Barcode value"
+msgstr "Barcode-Wert"
+
+#: config/jsL10n.php:672
+msgid "Barcode width"
+msgstr "Barcode-Breite"
+
+#: class/Core.php:200
+msgid "Barcode-Generator Page"
+msgstr "Barcode-Generator-Seite"
+
+#: config/jsL10n.php:666
+msgid "Barcode:"
+msgstr "Strichcode:"
+
+#: config/jsL10n.php:17
+msgid "Barcodes - Create Manually"
+msgstr "Etiketten - Manuell erstellen"
+
+#: config/jsL10n.php:23
+msgid "Barcodes - Import products from categories"
+msgstr "Etiketten - Importieren Sie Produkte aus Kategorien"
+
+#: config/jsL10n.php:131
+msgid "Barcodes for each item in Order"
+msgstr "Etiketten für jeden Artikel in der Bestellung"
+
+#: config/jsL10n.php:795
+msgid "Barcodes for order"
+msgstr "Etiketten für die Bestellung"
+
+#: config/jsL10n.php:128 config/jsL10n.php:130
+msgid "Barcodes for products"
+msgstr "Etiketten für Produkte"
+
+#: config/jsL10n.php:105
+msgid "Barcodes have been imported."
+msgstr "Etiketten wurden importiert."
+
+#: config/jsL10n.php:681
+msgid "Base padding"
+msgstr "Basispolsterung"
+
+#: config/jsL10n.php:573
+msgid "Base padding:"
+msgstr "Basispolsterung:"
+
+#: config/jsL10n.php:518
+msgid "Basic coupons info:"
+msgstr "Grundlegende Informationen zu Coupons:"
+
+#: config/jsL10n.php:430
+msgid "Basic order info:"
+msgstr "Grundlegende Bestellinformationen:"
+
+#: config/jsL10n.php:364
+msgid "Basic product info:"
+msgstr "Grundlegende Produktinformationen:"
+
+#: config/jsL10n.php:529
+msgid "Basic users info:"
+msgstr "Grundlegende Benutzerinformationen:"
+
+#: config/jsL10n.php:802
+msgid "Before billing address - [wpo_wcpdf_before_billing_address]"
+msgstr "Vor Rechnungsadresse - [wpo_wcpdf_before_billing_address]"
+
+#: config/jsL10n.php:798
+msgid "Before document - [wpo_wcpdf_before_document]"
+msgstr "Vordokument - [wpo_wcpdf_before_document]"
+
+#: config/jsL10n.php:308
+msgid "before making any changes."
+msgstr "bevor Sie Änderungen vornehmen."
+
+#: config/jsL10n.php:804
+msgid "Before order address - [wpo_wcpdf_before_order_data]"
+msgstr "Adresse vor der Bestellung - [wpo_wcpdf_before_order_data]"
+
+#: config/jsL10n.php:799
+msgid "Before shop name - [wpo_wcpdf_before_shop_name]"
+msgstr "Vor Shopname - [wpo_wcpdf_before_shop_name]"
+
+#: config/jsL10n.php:772
+msgid "Billing info"
+msgstr "Rechnungsinformation"
+
+#: config/jsL10n.php:460 config/jsL10n.php:555
+msgid "Billing info:"
+msgstr "Rechnungsinformation:"
+
+#: config/jsL10n.php:748
+msgid "Billing User Name"
+msgstr "Abrechnungsbenutzername"
+
+#: config/jsL10n.php:812
+msgid ""
+"Booster Plus for WooCommerce\" requires to edit HTML template in order to "
+"make any changes for invoices structure.<br/>\n"
+"        So, for barcode embedding you will have to add next shorcode into "
+"booster's template:<br/>\n"
+"        <br/>[barcode id=\"{wcj_order_number}\" shortcode=11 width=200px "
+"height=65px]<br/>\n"
+"        <br/>Explanation of attributes:<br/>\n"
+"        <br/><b>id=\"{wcj_order_number}\"</b> - {wcj_order_number} will be "
+"replaced with order id, so our plugin will know for which order barcode "
+"should be generated. You can replace {wcj_order_number} with any other "
+"booster's variable from the template if needed.<br/>\n"
+"        <br/><b>shortcode=11</b> - id of shortcode which should be used for "
+"barcode generation. You can find list of these shortcodes in the \"Embed "
+"Barcode\" tab.<br/>\n"
+"        <br/><b>width=200px</b> - sets width for barcode image in px.<br/>\n"
+"        <br/><b>height=65px</b> - sets height for barcode image in px.<br/>"
+msgstr ""
+"Booster Plus for WooCommerce\" erfordert die Bearbeitung der HTML-Vorlage, "
+"um Änderungen an der Rechnungsstruktur vorzunehmen.<br/>\n"
+"         Für die Barcode-Einbettung müssen Sie also den nächsten Shorcode in "
+"die Vorlage des Boosters einfügen:<br/>\n"
+"         <br/>[Barcode-ID=\"{wcj_order_number}\" Shortcode=11 Breite=200px "
+"Höhe=65px]<br/>\n"
+"         <br/>Erklärung der Attribute:<br/>\n"
+"         <br/><b>id=\"{wcj_order_number}\"</b> - {wcj_order_number} wird "
+"durch die Bestell-ID ersetzt, damit unser Plugin weiß, für welche Bestellung "
+"der Barcode generiert werden soll. Sie können {wcj_order_number} bei Bedarf "
+"durch eine beliebige andere Booster-Variable aus der Vorlage ersetzen.<br/>\n"
+"         <br/><b>shortcode=11</b> - ID des Shortcodes, der für die Barcode-"
+"Generierung verwendet werden soll. Eine Liste dieser Shortcodes finden Sie "
+"auf der Registerkarte \"Barcode einbetten\".<br/>\n"
+"         <br/><b>width=200px</b> - legt die Breite für das Barcode-Bild in "
+"px fest.<br/>\n"
+"         <br/><b>height=65px</b> - legt die Höhe für das Barcodebild in px "
+"fest.<br/>"
+
+#: config/jsL10n.php:678 config/jsL10n.php:685
+msgid "Bottom"
+msgstr "Unterseite"
+
+#: config/jsL10n.php:198
+msgid ""
+"By default barcode images are being created on product page load, email "
+"sending, product edit and other events. But if by some reason you need to "
+"generate barcodes for all products at once - use this feature."
+msgstr ""
+"Standardmäßig werden Barcode-Bilder beim Laden der Produktseite, beim E-Mail-"
+"Versand, bei der Produktbearbeitung und bei anderen Ereignissen erstellt. "
+"Aber wenn Sie aus irgendeinem Grund Barcodes für alle Produkte auf einmal "
+"generieren müssen, verwenden Sie diese Funktion."
+
+#: config/jsL10n.php:264
+msgid ""
+"By disabling this option you changing codes even for products that already "
+"have ones. Do you really want to do this ?"
+msgstr ""
+"Durch Deaktivieren dieser Option ändern Sie Codes auch für Produkte, die "
+"bereits einen haben. Willst du das wirklich tun ?"
+
+#: config/jsL10n.php:384
+msgid "Calculate discount (%) from 2 prices:"
+msgstr "Rabatt (%) aus 2 Preisen berechnen:"
+
+#: config/jsL10n.php:585
+msgid "Can't create a preview!"
+msgstr "Vorschau kann nicht erstellt werden!"
+
+#: config/jsL10n.php:6 config/jsL10n.php:312
+msgid "Cancel"
+msgstr "Absagen"
+
+#: config/jsL10n.php:102
+msgid ""
+"Categories are not selected. Please, select categories you would like to "
+"import by clicking on checkboxes."
+msgstr ""
+"Kategorien sind nicht ausgewählt. Bitte wählen Sie Kategorien aus, die Sie "
+"importieren möchten, indem Sie auf die Kontrollkästchen klicken."
+
+#: config/jsL10n.php:412
+msgid "Categories:"
+msgstr "Kategorien:"
+
+#: config/jsL10n.php:737
+msgid "Category"
+msgstr "Kategorie"
+
+#: config/jsL10n.php:413
+msgid "Category chain:"
+msgstr "Kategoriekette:"
+
+#: config/jsL10n.php:676
+msgid "Center"
+msgstr "Center"
+
+#: config/jsL10n.php:147 config/jsL10n.php:202 config/jsL10n.php:229
+#: config/jsL10n.php:244
+msgid "Changes have been saved."
+msgstr "Die Änderungen wurden gespeichert."
+
+#: config/jsL10n.php:7 config/jsL10n.php:592
+msgid "Check"
+msgstr "Überprüfen"
+
+#: config/jsL10n.php:450 config/jsL10n.php:465 config/jsL10n.php:545
+#: config/jsL10n.php:560
+msgid "City:"
+msgstr "Stadt:"
+
+#: config/jsL10n.php:87 config/jsL10n.php:256
+msgid "Clear"
+msgstr "Lösche"
+
+#: config/jsL10n.php:305
+msgid "Clear cache"
+msgstr "Cache leeren"
+
+#: config/jsL10n.php:184
+msgid "Clear generated labels on profile change"
+msgstr "Löschen Sie generierte Labels bei Profiländerungen"
+
+#: config/jsL10n.php:140
+msgid "Clear local storage"
+msgstr "Lokalen Speicher löschen"
+
+#: config/jsL10n.php:606
+msgid "Click"
+msgstr "Klicken"
+
+#: config/jsL10n.php:699 config/jsL10n.php:700
+msgid "Close"
+msgstr "Schließen"
+
+#: config/jsL10n.php:449 config/jsL10n.php:464 config/jsL10n.php:544
+#: config/jsL10n.php:559
+msgid "Company:"
+msgstr "Unternehmen:"
+
+#: config/jsL10n.php:694
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: config/jsL10n.php:110
+msgid "Contact Form 7"
+msgstr "Kontaktformular 7"
+
+#: config/jsL10n.php:484
+msgid "Contact Form 7:"
+msgstr "Kontaktformular 7:"
+
+#: config/jsL10n.php:652
+msgid "Continue"
+msgstr "Weitermachen"
+
+#: config/jsL10n.php:601
+msgid "Copies"
+msgstr "Kopien"
+
+#: config/jsL10n.php:8
+msgid "Copy"
+msgstr "Kopieren"
+
+#: config/jsL10n.php:774
+msgid "Copy template"
+msgstr "Vorlage kopieren"
+
+#: config/jsL10n.php:456 config/jsL10n.php:472 config/jsL10n.php:550
+#: config/jsL10n.php:567
+msgid "Country (long):"
+msgstr "Land (lang):"
+
+#: config/jsL10n.php:455 config/jsL10n.php:471 config/jsL10n.php:549
+#: config/jsL10n.php:566
+msgid "Country (short):"
+msgstr "Land (kurz):"
+
+#: config/jsL10n.php:523 config/jsL10n.php:755
+msgid "Coupon amount"
+msgstr "Gutscheinbetrag"
+
+#: config/jsL10n.php:519 config/jsL10n.php:751
+msgid "Coupon code"
+msgstr "Gutscheincode"
+
+#: config/jsL10n.php:435
+msgid "Coupon discount:"
+msgstr "Gutscheinrabatt:"
+
+#: config/jsL10n.php:114
+msgid "Coupons"
+msgstr "Gutscheine"
+
+#: config/jsL10n.php:9 config/jsL10n.php:25 config/jsL10n.php:201
+msgid "Create"
+msgstr "Erstellen"
+
+#: config/jsL10n.php:189
+msgid "Create a new barcode field for products"
+msgstr "Erstellen Sie ein neues Barcodefeld für Produkte"
+
+#. Description of the plugin
+msgid ""
+"Create and Print barcodes on label sheets using a printer. Best tool to make "
+"inventory of your stock."
+msgstr ""
+"Erstellen und Drucken von Barcodes auf Etikettenbögen mit einem Drucker. Das "
+"beste Tool, um Ihre Bestände zu inventarisieren."
+
+#: config/jsL10n.php:31
+msgid ""
+"Create button with this CSS selector, so plugin will use it as a \"Generate "
+"Barcodes\" button."
+msgstr ""
+"Erstellen Sie eine Schaltfläche mit diesem CSS-Selektor, sodass das Plugin "
+"sie als Schaltfläche \"Barcodes generieren\" verwendet."
+
+#: config/jsL10n.php:596
+msgid "Create custom field"
+msgstr "Benutzerdefiniertes Feld erstellen"
+
+#: templates/users/users-import-button.php:9
+#: templates/woocommerce-coupons/wc-coupons-import-messages-button.php:9
+msgid "Create Label"
+msgstr "Etikett erstellen"
+
+#: config/jsL10n.php:18
+msgid "Create Labels"
+msgstr "Etiketten erstellen"
+
+#: class/Core.php:170
+msgid "Create Manually"
+msgstr "Manuell erstellen"
+
+#: config/jsL10n.php:597
+msgid "Create new custom field for products and variations"
+msgstr ""
+"Erstellen Sie ein neues benutzerdefiniertes Feld für Produkte und Variationen"
+
+#: config/jsL10n.php:775
+msgid "Create new template"
+msgstr "Neue Vorlage erstellen"
+
+#: templates/orders/import-order.php:30
+msgid "Create Order Labels"
+msgstr "Bestelletiketten erstellen"
+
+#: templates/orders/import-order-items.php:9
+msgid "Create Product Labels"
+msgstr "Produktetiketten erstellen"
+
+#: config/jsL10n.php:719 config/jsL10n.php:738
+msgid "Creation date"
+msgstr "Erstellungsdatum"
+
+#: config/jsL10n.php:720 config/jsL10n.php:739
+msgid "Creation date and time"
+msgstr "Erstellungsdatum und -zeit"
+
+#: config/jsL10n.php:170
+msgid "Currency symbol"
+msgstr "Währungssymbol"
+
+#: config/jsL10n.php:509
+msgid "Current date & time"
+msgstr "Aktuelles Datum & Uhrzeit"
+
+#: config/jsL10n.php:207
+msgid "Custom Barcodes"
+msgstr "Benutzerdefinierte Barcodes"
+
+#: config/jsL10n.php:321
+msgid "Custom CSS"
+msgstr "Benutzerdefinierte CSS"
+
+#: config/jsL10n.php:712
+msgid "Custom field"
+msgstr "Benutzerdefinierte Feld"
+
+#: config/jsL10n.php:14
+msgid ""
+"Custom field name is correct, {{count}} products has been found with this "
+"field."
+msgstr ""
+"Benutzerdefinierter Feldname ist korrekt, {{count}} Produkte wurden mit "
+"diesem Feld gefunden."
+
+#: config/jsL10n.php:11 config/jsL10n.php:157
+msgid "Custom Fields"
+msgstr "Benutzerdefinierte Felder"
+
+#: config/jsL10n.php:655 config/jsL10n.php:658
+msgid "Data from wizard could not be saved due to the error:"
+msgstr ""
+"Daten vom Assistenten konnten aufgrund des folgenden Fehlers nicht "
+"gespeichert werden:"
+
+#: class/Formats.php:29 class/Formats.php:436
+msgid "Data successfully deleted."
+msgstr "Daten erfolgreich gelöscht."
+
+#: class/Formats.php:106 class/Formats.php:303
+msgid "Data successfully saved."
+msgstr "Daten erfolgreich gespeichert."
+
+#: class/Formats.php:33 class/Formats.php:440
+msgid "Data was not deleted."
+msgstr "Daten wurden nicht gelöscht."
+
+#: class/Formats.php:110 class/Formats.php:307
+msgid "Data was not saved."
+msgstr "Daten wurden nicht gespeichert."
+
+#: config/jsL10n.php:404
+msgid "Date & time:"
+msgstr "Terminzeit:"
+
+#: config/jsL10n.php:521 config/jsL10n.php:753
+msgid "Date of creation"
+msgstr "Erstelldatum"
+
+#: config/jsL10n.php:438
+msgid "Date of order:"
+msgstr "Datum der Bestellung:"
+
+#: config/jsL10n.php:405
+msgid "Date of product creation:"
+msgstr "Datum der Produkterstellung:"
+
+#: config/jsL10n.php:599
+msgid "DB Field name"
+msgstr "DB-Feldname"
+
+#: config/jsL10n.php:319
+msgid "Default font"
+msgstr "Standardschriftart"
+
+#: config/jsL10n.php:178
+msgid "Default order profile"
+msgstr "Standardauftragsprofil"
+
+#: config/jsL10n.php:176
+msgid "Default product profile"
+msgstr "Standardproduktprofil"
+
+#: config/jsL10n.php:174
+msgid "Default profile"
+msgstr "Standard Profil"
+
+#: config/jsL10n.php:158
+msgid "Default profiles"
+msgstr "Standardprofile"
+
+#: config/jsL10n.php:51
+msgid "Defined by user in popup"
+msgstr "Vom Benutzer im Popup definiert"
+
+#: config/jsL10n.php:313
+msgid "Delete"
+msgstr "Löschen"
+
+#: config/jsL10n.php:730
+msgid "Description"
+msgstr "Beschreibung"
+
+#: config/jsL10n.php:632
+msgid "Dimensions"
+msgstr "Maße"
+
+#: config/jsL10n.php:746
+msgid "Disable browser cache for barcode image"
+msgstr "Deaktivieren Sie den Browser-Cache für das Barcode-Bild"
+
+#: config/jsL10n.php:383
+msgid "Disable currency symbol:"
+msgstr "Währungssymbol deaktivieren:"
+
+#: config/jsL10n.php:590
+msgid "disabled"
+msgstr "Behinderte"
+
+#: config/jsL10n.php:718
+msgid "Discount"
+msgstr "Rabatt"
+
+#: config/jsL10n.php:522 config/jsL10n.php:754
+msgid "Discount type"
+msgstr "Rabatttyp"
+
+#: config/jsL10n.php:146
+msgid "Display all attributes"
+msgstr "Alle Attribute anzeigen"
+
+#: config/jsL10n.php:135
+msgid "Display barcode on an order preview"
+msgstr "Barcode auf einer Bestellvorschau anzeigen"
+
+#: config/jsL10n.php:171
+msgid "Display currency symbol with a price"
+msgstr "Währungssymbol mit einem Preis anzeigen"
+
+#: config/jsL10n.php:598
+msgid "Display name"
+msgstr "Anzeigename"
+
+#: config/jsL10n.php:173
+msgid "Display name of field before value, e.g. Color: Red"
+msgstr "Anzeigename des Feldes vor Wert, zB Farbe: Rot"
+
+#: config/jsL10n.php:172
+msgid "Display name of field for matched Lines"
+msgstr "Anzeigename des Felds für übereinstimmende Zeilen"
+
+#: config/jsL10n.php:145
+msgid "Display nothing"
+msgstr "Nichts anzeigen"
+
+#: config/jsL10n.php:381
+msgid "Display only cents:"
+msgstr "Nur Cent anzeigen:"
+
+#: config/jsL10n.php:44
+msgid "Display product field or text under \"Code\""
+msgstr "Produktfeld oder Text unter \"Code\" anzeigen"
+
+#: config/jsL10n.php:43
+msgid "Display product field or text under \"Line2\""
+msgstr "Produktfeld oder Text unter \"Zeile2\" anzeigen"
+
+#: config/jsL10n.php:155
+msgid "Do not create labels for products:"
+msgstr "Erstellen Sie keine Etiketten für Produkte:"
+
+#: config/jsL10n.php:690
+msgid "Do you really want to remove All pages and barcodes ?"
+msgstr "Möchten Sie wirklich alle Seiten und Barcodes entfernen?"
+
+#: config/jsL10n.php:693
+msgid "Do you really want to remove this profile?"
+msgstr "Möchten Sie dieses Profil wirklich entfernen?"
+
+#: config/jsL10n.php:309
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: config/jsL10n.php:826
+msgid "Draft"
+msgstr "Luftzug"
+
+#: config/jsL10n.php:361
+msgid ""
+"During barcode generation, these shortcodes will be replaced with proper "
+"values."
+msgstr ""
+"Während der Barcode-Generierung werden diese Shortcodes durch die richtigen "
+"Werte ersetzt."
+
+#: config/jsL10n.php:636
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: config/jsL10n.php:821
+msgid "Edit label texts"
+msgstr "Beschriftungstexte bearbeiten"
+
+#: config/jsL10n.php:470 config/jsL10n.php:565
+msgid "Email:"
+msgstr "Email:"
+
+#: config/jsL10n.php:163
+msgid "Embed Barcode"
+msgstr "Strichcode einbetten"
+
+#. %s: Name of a validated field
+#: config/config.php:36
+#, php-format
+msgid "Empty lines not allowed in field \"%s\"."
+msgstr "Leerzeilen sind im Feld \"%s\" nicht erlaubt."
+
+#: config/jsL10n.php:185
+msgid "Enable"
+msgstr "Zulassen"
+
+#: config/jsL10n.php:126
+msgid "Enable barcodes"
+msgstr "Strichcodes aktivieren"
+
+#: config/jsL10n.php:790
+msgid "Enable barcodes for products"
+msgstr "Barcodes für Produkte aktivieren"
+
+#: config/jsL10n.php:316
+msgid "Enable custom fonts"
+msgstr "Aktivieren Sie benutzerdefinierte Schriftarten"
+
+#: config/jsL10n.php:143
+msgid ""
+"Enable this option if you want to see grid printed along with labels (it "
+"might be useful for a debug)"
+msgstr ""
+"Aktivieren Sie diese Option, wenn Sie möchten, dass das Raster zusammen mit "
+"den Etiketten gedruckt wird (es könnte für ein Debugging nützlich sein)."
+
+#: config/jsL10n.php:591
+msgid "enabled"
+msgstr "aktiviert"
+
+#: config/jsL10n.php:80
+msgid "Enter field or attribute"
+msgstr "Feld oder Attribut eingeben"
+
+#: config/jsL10n.php:640
+msgid "Enter label size"
+msgstr "Etikettengröße eingeben"
+
+#: config/jsL10n.php:593
+msgid "Enter license key"
+msgstr "Lizenzschlüssel eingeben"
+
+#: config/jsL10n.php:261
+msgid "Enter profile name"
+msgstr "Geben Sie den Profilnamen ein"
+
+#: config/jsL10n.php:69
+msgid "Enter seller's name"
+msgstr "Geben Sie den Namen des Verkäufers ein"
+
+#: config/jsL10n.php:776
+msgid "Enter template name"
+msgstr "Geben Sie den Vorlagennamen ein"
+
+#: class/Products.php:857 class/Products.php:881
+msgid "Enter value"
+msgstr "Wert eingeben"
+
+#: config/jsL10n.php:70
+msgid "Enter VAT number"
+msgstr "Umsatzsteuer-Identifikationsnummer eingeben"
+
+#: config/jsL10n.php:94
+msgid ""
+"Entered sizes are not correct. \"Final size\" should match \"paper size\"."
+msgstr ""
+"Eingegebene Größen sind nicht korrekt. \"Endgültige Größe\" sollte mit "
+"\"Papiergröße\" übereinstimmen."
+
+#: config/jsL10n.php:213
+msgid "Equal to amount of purchased products (qty)"
+msgstr "Gleich der Menge der gekauften Produkte (Menge)"
+
+#: config/jsL10n.php:214
+msgid "Equal to total product quantity (in stock)"
+msgstr "Gleich der Gesamtproduktmenge (auf Lager)"
+
+#: config/jsL10n.php:520 config/jsL10n.php:752
+msgid "Expiration date"
+msgstr "Verfallsdatum"
+
+#: config/jsL10n.php:605
+msgid "Failed:"
+msgstr "Gescheitert:"
+
+#: class/Core.php:198
+msgid "FAQ"
+msgstr "FAQ"
+
+#. %s: Name of a validated field
+#: config/config.php:34
+#, php-format
+msgid "Field \"%s\" should not be empty."
+msgstr "\"%s\" Felder sollten nicht leer sein."
+
+#: config/jsL10n.php:73 config/jsL10n.php:74 config/jsL10n.php:75
+#: config/jsL10n.php:76
+msgid "Field / attribute"
+msgstr "Feld / Attribut"
+
+#: config/jsL10n.php:626
+msgid "Final size of label sheet:"
+msgstr "Endgröße des Etikettenbogens:"
+
+#: config/jsL10n.php:643
+msgid "Find sizes on the box or leave default values for now"
+msgstr ""
+"Finden Sie Größen auf der Verpackung oder belassen Sie vorerst die "
+"Standardwerte"
+
+#: config/jsL10n.php:446 config/jsL10n.php:461 config/jsL10n.php:541
+#: config/jsL10n.php:556
+msgid "First name:"
+msgstr "Vorname:"
+
+#: config/jsL10n.php:665
+msgid "Font size"
+msgstr "Schriftgröße"
+
+#: config/jsL10n.php:241
+msgid "Fonts & CSS"
+msgstr "Schriftarten und CSS"
+
+#: config/jsL10n.php:236
+msgid ""
+"For \"Variation\" you can access parent values, e.g:<br/>[cf=parent._sku "
+"before=\"parent SKU: \" after=\"\\n\"]<br/>[static=|]<br/>[cf=_sku "
+"before=\"SKU: \" after=\"\\n\"]"
+msgstr ""
+"Für „Variation“ können Sie auf übergeordnete Werte zugreifen, z. B.:<br/>"
+"[cf=parent._sku before=\"parent SKU: \" after=\"\\n\"]<br/>[static=|]<br/>[ "
+"cf=_sku before=\"SKU: \"after=\"\\n\"]"
+
+#: config/jsL10n.php:247
+msgid "For proper preview, first you need to match barcode with"
+msgstr ""
+"Für eine korrekte Vorschau müssen Sie zuerst den Barcode mit abgleichen"
+
+#: config/jsL10n.php:232
+msgid "For single product:"
+msgstr "Für Einzelprodukt:"
+
+#: config/jsL10n.php:235
+msgid "For variation product:"
+msgstr "Für Variationsprodukt:"
+
+#: config/jsL10n.php:399
+msgid "For variations only:"
+msgstr "Nur für Variationen:"
+
+#: config/jsL10n.php:448 config/jsL10n.php:463 config/jsL10n.php:543
+#: config/jsL10n.php:558
+msgid "Full name:"
+msgstr "Vollständiger Name:"
+
+#: config/jsL10n.php:825
+msgid "Future"
+msgstr "Zukunft"
+
+#: config/jsL10n.php:510
+msgid "Future date & time (strtotime() format)"
+msgstr "Zukünftiges Datum und Uhrzeit (strtotime()-Format)"
+
+#: config/jsL10n.php:618
+msgid "Gap Across:"
+msgstr "Lücke über:"
+
+#: config/jsL10n.php:617
+msgid "Gap Around:"
+msgstr "Lücke herum:"
+
+#: config/jsL10n.php:113 config/jsL10n.php:151
+msgid "General"
+msgstr "Allgemein"
+
+#: config/jsL10n.php:508
+msgid "General shortcodes:"
+msgstr "Allgemeine Shortcodes:"
+
+#: templates/contact-form-7/flamingo-import-messages-button.php:9
+msgid "Generate Barcodes"
+msgstr "Barcodes generieren"
+
+#: config/jsL10n.php:197
+msgid "Generate barcodes for all products"
+msgstr "Generieren Sie Barcodes für alle Produkte"
+
+#: config/jsL10n.php:396
+msgid "Get attribute of parent:"
+msgstr "Holen Sie sich das Attribut des Elternteils:"
+
+#: config/jsL10n.php:485
+msgid "Get email address:"
+msgstr "E-Mail-Adresse erhalten:"
+
+#: config/jsL10n.php:486
+msgid "Get name:"
+msgstr "Namen erhalten:"
+
+#: config/jsL10n.php:410
+msgid "Get product brands:"
+msgstr "Produktmarken erhalten:"
+
+#: config/jsL10n.php:409
+msgid "Get product tags:"
+msgstr "Produkt-Tags erhalten:"
+
+#: config/jsL10n.php:479
+msgid "Get product's meta data:"
+msgstr "Metadaten des Produkts abrufen:"
+
+#: config/jsL10n.php:653
+msgid "Go to product page"
+msgstr "Gehen Sie zur Produktseite"
+
+#: config/jsL10n.php:648 config/jsL10n.php:673 config/jsL10n.php:735
+msgid "Height"
+msgstr "Höhe"
+
+#: config/jsL10n.php:630
+msgid "height must be equal to"
+msgstr "Höhe muss gleich sein"
+
+#: config/jsL10n.php:708
+msgid "Height:"
+msgstr "Höhe:"
+
+#: config/jsL10n.php:607
+msgid "here"
+msgstr "hier"
+
+#: config/jsL10n.php:625
+msgid "here is example"
+msgstr "Hier ist ein Beispiel"
+
+#: config/jsL10n.php:223
+msgid ""
+"Here you can see barcode templates which are supported by this plugin.<br/>"
+"If you need some other barcode template then contact us at <a href=\"mailto:"
+"support@ukrsolution.com\">support@ukrsolution.com</a> and we will create it "
+"for you."
+msgstr ""
+"Hier sehen Sie Barcode-Vorlagen, die von diesem Plugin unterstützt werden."
+"<br/>Wenn Sie eine andere Barcode-Vorlage benötigen, kontaktieren Sie uns "
+"unter <a href=\"mailto:support@ukrsolution.com\">support@ukrsolution.com</a >"
+" und wir erstellen es für Sie."
+
+#: config/jsL10n.php:697
+msgid "How many copies of label would you like to create:"
+msgstr "Wie viele Kopien des Etiketts möchten Sie erstellen:"
+
+#: config/jsL10n.php:211
+msgid "How much labels to generate:"
+msgstr "Wie viele Etiketten sollen generiert werden:"
+
+#: config/jsL10n.php:641
+msgid "How to create Label - Tutorial"
+msgstr "So erstellen Sie ein Etikett - Tutorial"
+
+#. Author URI of the plugin
+msgid "http://www.ukrsolution.com"
+msgstr "http://www.ukrsolution.com"
+
+#. URI of the plugin
+msgid "https://www.ukrsolution.com/Joomla/A4-BarCode-Generator-For-Wordpress"
+msgstr "https://www.ukrsolution.com/Joomla/A4-BarCode-Generator-For-Wordpress"
+
+#: config/jsL10n.php:609
+msgid "Id"
+msgstr "Ausweis"
+
+#: config/jsL10n.php:144
+msgid "If attribute is not specified"
+msgstr "Wenn das Attribut nicht angegeben ist"
+
+#: config/jsL10n.php:187
+msgid ""
+"If parent product and variation has the same custom field, which should be "
+"imported for variation barcodes ?"
+msgstr ""
+"Wenn übergeordnetes Produkt und Variation dasselbe benutzerdefinierte Feld "
+"haben, welches sollte für Variationsbarcodes importiert werden?"
+
+#: config/jsL10n.php:687
+msgid "Image - text gap"
+msgstr "Bild - Textlücke"
+
+#: config/jsL10n.php:646
+msgid "imperial"
+msgstr "Kaiserliche"
+
+#: class/Core.php:175
+msgid "Import Categories"
+msgstr "Kategorien importieren"
+
+#: class/Core.php:178
+msgid "Import Orders"
+msgstr "Bestellungen importieren"
+
+#: class/Core.php:172
+msgid "Import Products"
+msgstr "Produkte importieren"
+
+#. %s: Name of a validated field
+#: config/config.php:28
+#, php-format
+msgid "In the %s parameter, an invalid value was specified."
+msgstr "Im Parameter %s wurde ein ungültiger Wert angegeben."
+
+#: config/jsL10n.php:317
+msgid "Include fonts"
+msgstr "Schriftarten einbeziehen"
+
+#: config/jsL10n.php:64 config/jsL10n.php:193
+msgid "Include variations"
+msgstr "Variationen einbeziehen"
+
+#: config/jsL10n.php:830
+msgid "Inherit"
+msgstr "Erben"
+
+#: config/jsL10n.php:167
+msgid "Invoices & plugins"
+msgstr "Rechnungen & Plugins"
+
+#: config/jsL10n.php:13
+msgid ""
+"It might look like \"tshirt_size\", \"upc_code\" or \"my_custom_field\". "
+"Usually name/key of custom field is specified in plugin where it was created."
+msgstr ""
+"Es könnte wie „tshirt_size“, „upc_code“ oder „my_custom_field“ aussehen. "
+"Normalerweise wird der Name/Schlüssel des benutzerdefinierten Felds im "
+"Plugin angegeben, in dem es erstellt wurde."
+
+#: config/jsL10n.php:28
+msgid "Items checkbox CSS selector"
+msgstr "Items Checkbox CSS-Selektor"
+
+#: config/jsL10n.php:432
+msgid "Items subtotal:"
+msgstr "Artikel-Zwischensumme:"
+
+#: config/jsL10n.php:237
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: config/jsL10n.php:778
+msgid "Label"
+msgstr "Etikett"
+
+#: config/jsL10n.php:616
+msgid "Label Across:"
+msgstr "Etikett quer:"
+
+#: config/jsL10n.php:238
+msgid "Label afterRender event"
+msgstr "Label afterRender-Ereignis"
+
+#: config/jsL10n.php:615
+msgid "Label Around:"
+msgstr "Etikett herum:"
+
+#: config/jsL10n.php:614
+msgid "Label Height:"
+msgstr "Etikettenhöhe:"
+
+#: config/jsL10n.php:580
+msgid "Label height:"
+msgstr "Etikettenhöhe:"
+
+#: config/jsL10n.php:682
+msgid "Label margins (px) - Left, Right, Top, Bottom"
+msgstr "Etikettenränder (px) - Links, Rechts, Oben, Unten"
+
+#: config/jsL10n.php:574
+msgid "Label margins:"
+msgstr "Etikettenränder:"
+
+#: class/Core.php:160 class/Core.php:161
+msgid "Label Printing"
+msgstr "Etikettendruck"
+
+#: config/jsL10n.php:833
+msgid "Label printing is disabled for products with \"%status%\" status."
+msgstr ""
+"Der Etikettendruck ist für Produkte mit dem Status „%status%“ deaktiviert."
+
+#: config/jsL10n.php:252
+msgid "Label settings"
+msgstr "Etiketteneinstellungen"
+
+#: config/jsL10n.php:83
+msgid "Label sheet"
+msgstr "Etikettenbogen"
+
+#: config/jsL10n.php:84
+msgid "Label Template"
+msgstr "Etikettenvorlage"
+
+#: class/Core.php:183
+msgid "Label Templates"
+msgstr "Etikettenvorlagen"
+
+#: config/jsL10n.php:613
+msgid "Label Width:"
+msgstr "Etikettenbreite:"
+
+#: config/jsL10n.php:579
+msgid "Label width:"
+msgstr "Etikettenbreite:"
+
+#: config/jsL10n.php:835
+msgid "labels"
+msgstr "Etiketten"
+
+#: config/jsL10n.php:415
+msgid "Last category:"
+msgstr "Letzte Kategorie:"
+
+#: config/jsL10n.php:447 config/jsL10n.php:462 config/jsL10n.php:542
+#: config/jsL10n.php:557
+msgid "Last name:"
+msgstr "Familienname, Nachname:"
+
+#: config/jsL10n.php:679 config/jsL10n.php:686
+msgid "Left"
+msgstr "Links"
+
+#: config/jsL10n.php:733
+msgid "Length"
+msgstr "Länge"
+
+#: config/jsL10n.php:670
+msgid "Letter"
+msgstr "Brief"
+
+#: config/jsL10n.php:160 config/jsL10n.php:169
+msgid "License"
+msgstr "Lizenz"
+
+#: config/jsL10n.php:124 config/jsL10n.php:768
+msgid "License key"
+msgstr "Lizenzschlüssel"
+
+#: config/jsL10n.php:59 config/jsL10n.php:328
+msgid "Line 1"
+msgstr "Zeile 1"
+
+#: config/jsL10n.php:60 config/jsL10n.php:329
+msgid "Line 2"
+msgstr "Zeile 2"
+
+#: config/jsL10n.php:61 config/jsL10n.php:330
+msgid "Line 3"
+msgstr "Zeile 3"
+
+#: config/jsL10n.php:62 config/jsL10n.php:331
+msgid "Line 4"
+msgstr "Zeile 4"
+
+#: config/jsL10n.php:668
+msgid "Line break:"
+msgstr "Zeilenumbruch:"
+
+#: config/jsL10n.php:769
+msgid "Link to add item to cart & open cart"
+msgstr ""
+"Link zum Hinzufügen des Artikels zum Warenkorb und zum Öffnen des Warenkorbs"
+
+#: config/jsL10n.php:118
+msgid "Loading..."
+msgstr "Wird geladen..."
+
+#: config/jsL10n.php:304
+msgid "Local or Global (the one with value)"
+msgstr "Lokal oder Global (derjenige mit Wert)"
+
+#: config/jsL10n.php:762
+msgid "Login url"
+msgstr "Anmelde-URL"
+
+#: config/jsL10n.php:582
+msgid "Logo:"
+msgstr "Logo:"
+
+#: config/jsL10n.php:371
+msgid "Main gallery image url:"
+msgstr "Bild-URL der Hauptgalerie:"
+
+#: config/jsL10n.php:369
+msgid "Main product image url:"
+msgstr "URL des Hauptproduktbildes:"
+
+#: config/jsL10n.php:372
+msgid "Main/Parent product name:"
+msgstr "Haupt-/Übergeordneter Produktname:"
+
+#: config/jsL10n.php:370
+msgid "Main/Variation product image url:"
+msgstr "Haupt-/Varianten-Produktbild-URL:"
+
+#: config/jsL10n.php:664
+msgid "Manual"
+msgstr "Handbuch"
+
+#: config/jsL10n.php:577 config/jsL10n.php:622
+msgid "Margin bottom:"
+msgstr "Rand unten:"
+
+#: config/jsL10n.php:578 config/jsL10n.php:620
+msgid "Margin left:"
+msgstr "Verbleibender Rand:"
+
+#: config/jsL10n.php:576 config/jsL10n.php:619
+msgid "Margin right:"
+msgstr "Rand rechts:"
+
+#: config/jsL10n.php:575 config/jsL10n.php:621
+msgid "Margin top:"
+msgstr "Rand oben:"
+
+#: config/jsL10n.php:631
+msgid "Margins"
+msgstr "Ränder"
+
+#. %s: Name of a validated field
+#: config/config.php:30
+#, php-format
+msgid "Markup should be valid XML in the %s parameter."
+msgstr "Markup sollte gültiges XML im %s-Parameter sein."
+
+#: config/jsL10n.php:231
+msgid "Match \"Barcode value\" (to generate image) with a field(s):"
+msgstr ""
+"Gleichen Sie „Barcode-Wert“ (um ein Bild zu generieren) mit einem oder "
+"mehreren Feldern ab:"
+
+#: config/jsL10n.php:37
+msgid "Match barcode lines with message fields or attributes"
+msgstr "Gleichen Sie Barcodezeilen mit Nachrichtenfeldern oder Attributen ab"
+
+#: config/jsL10n.php:35
+msgid "Match barcode lines with order fields"
+msgstr "Gleichen Sie Barcodezeilen mit Bestellfeldern ab"
+
+#: config/jsL10n.php:34 config/jsL10n.php:36 config/jsL10n.php:38
+msgid "Match barcode lines with product fields or attributes"
+msgstr "Gleichen Sie Barcodezeilen mit Produktfeldern oder Attributen ab"
+
+#: config/jsL10n.php:242
+msgid "Match Fields"
+msgstr "Übereinstimmungsfelder"
+
+#: config/jsL10n.php:314
+msgid "Match fields"
+msgstr "Übereinstimmungsfelder"
+
+#: config/jsL10n.php:19
+msgid "Match fields for label"
+msgstr "Übereinstimmungsfelder für Label"
+
+#: config/jsL10n.php:581
+msgid "Media"
+msgstr "Medien"
+
+#: config/jsL10n.php:610
+msgid "Messagae"
+msgstr "Nachrichten"
+
+#: config/jsL10n.php:711
+msgid "Message Id"
+msgstr "Nachrichten ID"
+
+#: config/jsL10n.php:603
+msgid "Message(s) not found"
+msgstr "Nachricht(en) nicht gefunden"
+
+#: config/jsL10n.php:103
+msgid ""
+"Messages are not selected. Please, select messages you would like to import "
+"by clicking on checkboxes."
+msgstr ""
+"Nachrichten werden nicht ausgewählt. Bitte wählen Sie Nachrichten aus, die "
+"Sie importieren möchten, indem Sie auf die Kontrollkästchen klicken."
+
+#: config/jsL10n.php:645
+msgid "metric"
+msgstr "metrisch"
+
+#: config/jsL10n.php:741
+msgid "Multiple Fields"
+msgstr "Mehrere Felder"
+
+#: config/jsL10n.php:781
+msgid "Multiple Fields for barcode"
+msgstr "Mehrere Felder für Barcode"
+
+#: config/jsL10n.php:706
+msgid "My Custom Paper name, e.g. A3"
+msgstr "Name meines benutzerdefinierten Papiers, z. B. A3"
+
+#: config/jsL10n.php:714 config/jsL10n.php:722
+msgid "Name"
+msgstr "Name"
+
+#: config/jsL10n.php:322 config/jsL10n.php:612 config/jsL10n.php:705
+msgid "Name:"
+msgstr "Name:"
+
+#: config/jsL10n.php:635
+msgid "New label sheet"
+msgstr "Neuer Etikettenbogen"
+
+#: config/jsL10n.php:704
+msgid "New Page Size"
+msgstr "Neue Seitengröße"
+
+#. %s: Name of a validated field
+#: config/config.php:16
+#, php-format
+msgid "No %s parameter specified."
+msgstr "Kein %s-Parameter angegeben."
+
+#: class/Api/BaseRestController.php:223
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+#: config/jsL10n.php:327
+msgid "Not Selected"
+msgstr "Nicht ausgewählt"
+
+#: config/jsL10n.php:180
+msgid "Not selected"
+msgstr "Nicht ausgewählt"
+
+#: config/jsL10n.php:219
+msgid ""
+"On this page you can create your own label template and use it for label "
+"printing.<br/>\n"
+"    Before creation of your own template please check predefined examples to "
+"learn HTML code structure for template.<br/>\n"
+"    If you need help with it you can ask your web-developer or contact us by "
+"email: <a href=\"mailto:support@ukrsolution.com\">support@ukrsolution.com</a>"
+", and provide us with all details about label template you would like to "
+"create."
+msgstr ""
+"Auf dieser Seite können Sie Ihre eigene Etikettenvorlage erstellen und für "
+"den Etikettendruck verwenden.<br/>\n"
+"     Bevor Sie Ihre eigene Vorlage erstellen, überprüfen Sie bitte die "
+"vordefinierten Beispiele, um die Struktur des HTML-Codes für die Vorlage "
+"kennenzulernen.<br/>\n"
+"     Wenn Sie dabei Hilfe benötigen, können Sie Ihren Webentwickler fragen "
+"oder uns per E-Mail kontaktieren: <a href=\"mailto:support@ukrsolution.com\">"
+"support@ukrsolution.com</a>, und uns alle Details darüber mitteilen "
+"Etikettenvorlage, die Sie erstellen möchten."
+
+#. %s: Name of a validated field
+#: config/config.php:38
+#, php-format
+msgid "Only one shortcode per line allowed in field \"%s\"."
+msgstr "Im Feld \"%s\" ist nur ein Shortcode pro Zeile erlaubt."
+
+#: class/Core.php:168
+msgid "Open Preview"
+msgstr "Vorschau öffnen"
+
+#: config/jsL10n.php:789
+msgid "Order barcode position"
+msgstr "Barcodeposition bestellen"
+
+#: config/jsL10n.php:796
+msgid "Order barcode width"
+msgstr "Barcodebreite bestellen"
+
+#: config/jsL10n.php:205
+msgid "Order Barcodes"
+msgstr "Barcodes bestellen"
+
+#: config/jsL10n.php:440
+msgid "Order completed date:"
+msgstr "Abschlussdatum der Bestellung:"
+
+#: config/jsL10n.php:441
+msgid "Order completed time:"
+msgstr "Bestellabschlusszeit:"
+
+#: config/jsL10n.php:165
+msgid "Order Email"
+msgstr "E-Mail bestellen"
+
+#: config/jsL10n.php:713
+msgid "Order Id"
+msgstr "Auftragsnummer"
+
+#: config/jsL10n.php:431
+msgid "Order Id:"
+msgstr "Auftragsnummer:"
+
+#: config/jsL10n.php:478
+msgid "Order item quantity:"
+msgstr "Artikelmenge bestellen:"
+
+#: class/MetaBoxes.php:39 config/jsL10n.php:20
+msgid "Order Label"
+msgstr "Bestelletikett"
+
+#: templates/orders/import-orders-button.php:8
+msgid "Order label"
+msgstr "Etikett bestellen"
+
+#: config/jsL10n.php:740
+msgid "Order Link (Admin)"
+msgstr "Bestelllink (Admin)"
+
+#: config/jsL10n.php:717
+msgid "Order shipping price"
+msgstr "Versandpreis bestellen"
+
+#: config/jsL10n.php:137
+msgid "Order shortcode / type"
+msgstr "Shortcode / Typ der Bestellung"
+
+#: config/jsL10n.php:436
+msgid "Order subtotal price:"
+msgstr "Zwischensummenpreis der Bestellung:"
+
+#: config/jsL10n.php:716
+msgid "Order tax"
+msgstr "Steuer bestellen"
+
+#: config/jsL10n.php:433
+msgid "Order tax:"
+msgstr "Bestellsteuer:"
+
+#: config/jsL10n.php:715
+msgid "Order total"
+msgstr "Auftragssumme"
+
+#: config/jsL10n.php:437
+msgid "Order total price:"
+msgstr "Gesamtpreis der Bestellung:"
+
+#: config/jsL10n.php:602
+msgid "Order(s) not found"
+msgstr "Bestellung(en) nicht gefunden"
+
+#: config/jsL10n.php:476
+msgid "Ordered products:"
+msgstr "Bestellte Produkte:"
+
+#: config/jsL10n.php:109
+msgid "Orders"
+msgstr "Aufträge"
+
+#: config/jsL10n.php:100
+msgid ""
+"Orders are not selected. Please, select orders you would like to import by "
+"clicking on checkboxes."
+msgstr ""
+"Bestellungen werden nicht ausgewählt. Bitte wählen Sie Bestellungen aus, die "
+"Sie importieren möchten, indem Sie auf die Kontrollkästchen klicken."
+
+#: config/jsL10n.php:161
+msgid "Other"
+msgstr "Andere"
+
+#: config/jsL10n.php:86
+msgid "Pages"
+msgstr "Seiten"
+
+#: config/jsL10n.php:254
+msgid "Paper"
+msgstr "Papier"
+
+#: config/jsL10n.php:82 config/jsL10n.php:89
+msgid "Paper type"
+msgstr "Papiertyp"
+
+#: config/jsL10n.php:649
+msgid "Paper:"
+msgstr "Papier:"
+
+#: config/jsL10n.php:400
+msgid "Parent product ID:"
+msgstr "Übergeordnete Produkt-ID:"
+
+#: config/jsL10n.php:401
+msgid "Parent product SKU:"
+msgstr "SKU des übergeordneten Produkts:"
+
+#: config/jsL10n.php:827
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: config/jsL10n.php:95
+msgid "Perfect fit!"
+msgstr "Passt perfekt!"
+
+#: config/jsL10n.php:454 config/jsL10n.php:469 config/jsL10n.php:553
+#: config/jsL10n.php:564
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: config/jsL10n.php:502
+msgid "Pickup date"
+msgstr "Abholdatum"
+
+#: config/jsL10n.php:500
+msgid "Pickup location address"
+msgstr "Adresse des Abholorts"
+
+#: config/jsL10n.php:501
+msgid "Pickup location title/name"
+msgstr "Titel/Name des Abholorts"
+
+#: config/jsL10n.php:112
+msgid "Pickup Plus"
+msgstr "Abhol-Plus"
+
+#: config/jsL10n.php:642
+msgid "Please choose measure units used in your region"
+msgstr ""
+"Bitte wählen Sie Maßeinheiten aus, die in Ihrer Region verwendet werden"
+
+#: barcode_generator.php:69
+msgid ""
+"Please deactivate any other version of the plugin before you can activate "
+"this one."
+msgstr ""
+"Bitte deaktivieren Sie jede andere Version des Plugins, bevor Sie diese "
+"aktivieren können."
+
+#. %s: Name of a validated field
+#: config/config.php:18
+msgid "Please select at least one item and try again."
+msgstr ""
+"Bitte wählen Sie mindestens einen Artikel aus und versuchen Sie es erneut."
+
+#: config/jsL10n.php:12
+msgid "Please specify name of custom field here."
+msgstr "Bitte geben Sie hier den Namen des benutzerdefinierten Felds an."
+
+#: config/jsL10n.php:657 config/jsL10n.php:659
+msgid "Please try to run wizard again."
+msgstr "Bitte versuchen Sie erneut, den Assistenten auszuführen."
+
+#: config/jsL10n.php:453 config/jsL10n.php:468 config/jsL10n.php:548
+#: config/jsL10n.php:563
+msgid "Postcode:"
+msgstr "Postleitzahl:"
+
+#. %s: Name of a validated field
+#: config/config.php:32
+#, php-format
+msgid "Posts not found with custom field: %s."
+msgstr "Beiträge mit benutzerdefiniertem Feld nicht gefunden: %s."
+
+#: config/jsL10n.php:106
+msgid "Pre-define fields"
+msgstr "Felder vordefinieren"
+
+#: config/jsL10n.php:54
+msgid "Pre-define fields now"
+msgstr "Felder jetzt vordefinieren"
+
+#: config/jsL10n.php:587
+msgid "Preview product:"
+msgstr "Produktvorschau:"
+
+#: config/jsL10n.php:586
+msgid "Preview:"
+msgstr "Vorschau:"
+
+#: config/jsL10n.php:727
+msgid "Price + Tax"
+msgstr "Preis + MwSt"
+
+#: config/jsL10n.php:380
+msgid "Price without decimals:"
+msgstr "Preis ohne Dezimalstellen:"
+
+#: config/jsL10n.php:91
+msgid "Print"
+msgstr "Drucken"
+
+#: config/jsL10n.php:142
+msgid "Print grid on pages"
+msgstr "Raster auf Seiten drucken"
+
+#: config/jsL10n.php:828
+msgid "Private"
+msgstr "Privat"
+
+#: config/jsL10n.php:10
+msgid ""
+"Problem connect to server!</br>Please reload page, if error will repeat.</br>"
+" Report us about problem. <a href=\"mailto:support@ukrsolution.com\">"
+"@Support</a>"
+msgstr ""
+"Verbindungsproblem zum Server!</br>Bitte Seite neu laden, falls der Fehler "
+"wiederholt wird.</br> Melden Sie uns das Problem. <a href=\"mailto:"
+"support@ukrsolution.com\">@Support</a>"
+
+#: config/jsL10n.php:300
+msgid "Product"
+msgstr "Produkt"
+
+#: config/jsL10n.php:58
+msgid "Product Barcode"
+msgstr "Produkt-Barcode"
+
+#: config/jsL10n.php:188 config/jsL10n.php:743
+msgid "Product Barcode field"
+msgstr "Feld Produkt-Barcode"
+
+#: config/jsL10n.php:199
+msgid "Product Barcodes"
+msgstr "Produkt-Barcodes"
+
+#: config/jsL10n.php:373
+msgid "Product Description:"
+msgstr "Produktbeschreibung:"
+
+#: config/jsL10n.php:195 config/jsL10n.php:736
+msgid "Product dimensions"
+msgstr "Produktabmessungen"
+
+#: config/jsL10n.php:392
+msgid "Product dimensions:"
+msgstr "Produktabmessungen:"
+
+#: config/jsL10n.php:391
+msgid "Product height:"
+msgstr "Produkthöhe:"
+
+#: config/jsL10n.php:721
+msgid "Product Id"
+msgstr "Produkt ID"
+
+#: config/jsL10n.php:425
+msgid "Product Id with prefix:"
+msgstr "Produkt-ID mit Präfix:"
+
+#: config/jsL10n.php:21 templates/categories/import-categories-button.php:9
+#: templates/orders/import-products-button.php:9
+#: templates/products/import-button.php:9
+#: templates/products/import-single-product-button.php:23
+#: templates/products/import-variable-button.php:28
+msgid "Product Label"
+msgstr "Produktetikett"
+
+#: config/jsL10n.php:324
+msgid "Product label"
+msgstr "Produktetikett"
+
+#: config/jsL10n.php:154
+msgid "Product Labels"
+msgstr "Produktetiketten"
+
+#: config/jsL10n.php:389
+msgid "Product length:"
+msgstr "Produktlänge:"
+
+#: config/jsL10n.php:728
+msgid "Product Link"
+msgstr "Produktlink"
+
+#: config/jsL10n.php:729
+msgid "Product Link (Admin)"
+msgstr "Produktlink (Admin)"
+
+#: config/jsL10n.php:166
+msgid "Product Page"
+msgstr "Produktseite"
+
+#: config/jsL10n.php:374
+msgid "Product short description:"
+msgstr "Produkt Kurzbeschreibung:"
+
+#: config/jsL10n.php:79
+msgid "Product SKU, ISIN, UPC, EAN or any other data"
+msgstr "Produkt-SKU, ISIN, UPC, EAN oder andere Daten"
+
+#: config/jsL10n.php:750
+msgid "Product Tags"
+msgstr "Produkt Tags"
+
+#: config/jsL10n.php:388
+msgid "Product weight:"
+msgstr "Produktgewicht:"
+
+#: config/jsL10n.php:390
+msgid "Product width:"
+msgstr "Produktbreite:"
+
+#: config/jsL10n.php:368
+msgid "Product/Variation ID with prefix:"
+msgstr "Produkt-/Varianten-ID mit Präfix:"
+
+#: config/jsL10n.php:367
+msgid "Product/Variation ID:"
+msgstr "Produkt-/Varianten-ID:"
+
+#: config/jsL10n.php:366
+msgid "Product/Variation name:"
+msgstr "Produkt-/Variantenname:"
+
+#: config/jsL10n.php:108
+msgid "Products"
+msgstr "Produkte"
+
+#: config/jsL10n.php:98 config/jsL10n.php:99
+msgid ""
+"Products are not selected. Please, select products you would like to import "
+"by clicking on checkboxes."
+msgstr ""
+"Produkte werden nicht ausgewählt. Bitte wählen Sie Produkte aus, die Sie "
+"importieren möchten, indem Sie auf die Kontrollkästchen klicken."
+
+#: config/jsL10n.php:253
+msgid "Profile"
+msgstr "Profil"
+
+#: config/jsL10n.php:248
+msgid "proper product field"
+msgstr "richtigen Produktbereich"
+
+#: config/jsL10n.php:824
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+#: config/jsL10n.php:511
+msgid "Random digits"
+msgstr "Zufällige Ziffern"
+
+#: config/jsL10n.php:307
+msgid "Read"
+msgstr "Lesen"
+
+#: config/jsL10n.php:725
+msgid "Regular price"
+msgstr "Regulärer Preis"
+
+#: config/jsL10n.php:749
+msgid "Regular Price + Tax"
+msgstr "Regulärer Preis + MwSt"
+
+#: config/jsL10n.php:386
+msgid "Regular price + Tax:"
+msgstr "Regulärer Preis + MwSt.:"
+
+#: config/jsL10n.php:378
+msgid "Regular price with tax:"
+msgstr "Regulärer Preis mit MwSt.:"
+
+#: config/jsL10n.php:377
+msgid "Regular price:"
+msgstr "Regulärer Preis:"
+
+#: config/jsL10n.php:744
+msgid "Remove domain from barcode image URL"
+msgstr "Domäne aus Barcode-Bild-URL entfernen"
+
+#: config/jsL10n.php:747
+msgid "Remove random GET parameter from barcode image URL."
+msgstr "Zufälligen GET-Parameter aus der Barcode-Bild-URL entfernen."
+
+#: config/jsL10n.php:182
+msgid "removed"
+msgstr "ENTFERNT"
+
+#: config/jsL10n.php:680 config/jsL10n.php:684
+msgid "Right"
+msgstr "Rechts"
+
+#: config/jsL10n.php:688
+msgid "Rotate barcode by 90 degree"
+msgstr "Barcode um 90 Grad drehen"
+
+#: config/jsL10n.php:512
+msgid "Round number"
+msgstr "Gerade Zahl"
+
+#: config/jsL10n.php:726
+msgid "Sale price"
+msgstr "Verkaufspreis"
+
+#: config/jsL10n.php:385
+msgid "Sale price + Tax:"
+msgstr "Verkaufspreis + MwSt.:"
+
+#: config/jsL10n.php:376
+msgid "Sale price with tax:"
+msgstr "Verkaufspreis mit Steuer:"
+
+#: config/jsL10n.php:375
+msgid "Sale price:"
+msgstr "Verkaufspreis:"
+
+#: config/jsL10n.php:633
+msgid "Save"
+msgstr "Speichern"
+
+#: config/jsL10n.php:148 config/jsL10n.php:200 config/jsL10n.php:225
+#: config/jsL10n.php:228 config/jsL10n.php:243
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: config/jsL10n.php:311
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: config/jsL10n.php:257
+msgid "Save Profile"
+msgstr "Profil speichern"
+
+#: config/jsL10n.php:588
+msgid "Select any other template as an HTML example"
+msgstr "Wählen Sie eine beliebige andere Vorlage als HTML-Beispiel aus"
+
+#: templates/categories/import-categories-button.php:5
+msgid "Select categories and press this button to create barcodes."
+msgstr ""
+"Wählen Sie Kategorien aus und drücken Sie diese Schaltfläche, um Barcodes zu "
+"erstellen."
+
+#: config/jsL10n.php:71 config/jsL10n.php:72
+msgid "Select column with product code"
+msgstr "Spalte mit Produktcode auswählen"
+
+#: config/jsL10n.php:42
+msgid "Select column with product name"
+msgstr "Spalte mit Produktname auswählen"
+
+#: config/jsL10n.php:40 config/jsL10n.php:41
+msgid "Select column with SKU, UPC or other code"
+msgstr "Spalte mit SKU, UPC oder anderem Code auswählen"
+
+#: templates/woocommerce-coupons/wc-coupons-import-messages-button.php:5
+msgid "Select coupons and press this button to create barcodes."
+msgstr ""
+"Wählen Sie Coupons aus und drücken Sie diese Schaltfläche, um Barcodes zu "
+"erstellen."
+
+#: templates/orders/import-order-item-checkbox.php:6
+msgid "Select for label"
+msgstr "Für Etikett auswählen"
+
+#: templates/orders/import-order-items.php:5
+msgid "Select items and press this button to create barcodes."
+msgstr ""
+"Wählen Sie Artikel aus und drücken Sie diese Taste, um Barcodes zu erstellen."
+
+#: templates/contact-form-7/flamingo-import-messages-button.php:5
+msgid "Select messages and press this button to create barcodes."
+msgstr ""
+"Wählen Sie Nachrichten aus und drücken Sie diese Schaltfläche, um Barcodes "
+"zu erstellen."
+
+#: templates/orders/import-orders-button.php:4
+#: templates/orders/import-products-button.php:5
+msgid "Select orders and press this button to create barcodes."
+msgstr ""
+"Wählen Sie Bestellungen aus und drücken Sie diese Schaltfläche, um Barcodes "
+"zu erstellen."
+
+#: config/jsL10n.php:101
+msgid ""
+"Select orders from which you would like to generate product barcodes by "
+"clicking on checkboxes."
+msgstr ""
+"Wählen Sie Bestellungen aus, aus denen Sie Produktbarcodes generieren "
+"möchten, indem Sie auf die Kontrollkästchen klicken."
+
+#: templates/products/import-button.php:5
+msgid "Select products and press this button to create barcodes."
+msgstr ""
+"Wählen Sie Produkte aus und drücken Sie diese Schaltfläche, um Barcodes zu "
+"erstellen."
+
+#: config/jsL10n.php:156
+msgid "Select some statuses"
+msgstr "Wählen Sie einige Status aus"
+
+#: config/jsL10n.php:68
+msgid "Select template"
+msgstr "Vorlage auswählen"
+
+#: config/jsL10n.php:67
+msgid "Select template:"
+msgstr "Vorlage auswählen:"
+
+#: config/jsL10n.php:45 config/jsL10n.php:77
+msgid "Select type of barcode"
+msgstr "Barcodetyp auswählen"
+
+#: config/jsL10n.php:78
+msgid "Select type of storage"
+msgstr "Speichertyp auswählen"
+
+#: templates/users/users-import-button.php:5
+msgid "Select users and press this button to create barcodes."
+msgstr ""
+"Wählen Sie Benutzer aus und drücken Sie diese Schaltfläche, um Barcodes zu "
+"erstellen."
+
+#: config/jsL10n.php:638
+msgid "Select your printer type"
+msgstr "Wählen Sie Ihren Druckertyp aus"
+
+#: config/jsL10n.php:251
+msgid "Selected label sheet doesn't match to active label template."
+msgstr ""
+"Der ausgewählte Etikettenbogen stimmt nicht mit der aktiven Etikettenvorlage "
+"überein."
+
+#: config/jsL10n.php:47
+msgid "Seller's name"
+msgstr "Name des Verkäufers"
+
+#: config/jsL10n.php:583
+msgid "Sender Address:"
+msgstr "Absenderadresse:"
+
+#: config/jsL10n.php:763
+msgid "Sequential Order Number"
+msgstr "Fortlaufende Bestellnummer"
+
+#: config/jsL10n.php:310
+msgid "Set active"
+msgstr "Aktivieren"
+
+#: class/Core.php:185 class/Core.php:236 class/Core.php:237
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: config/jsL10n.php:296
+msgid "settings"
+msgstr "die Einstellungen"
+
+#: config/jsL10n.php:139
+msgid "Setup wizard"
+msgstr "Setup-Assistent"
+
+#: config/jsL10n.php:255
+msgid "Sheet"
+msgstr "Blatt"
+
+#: config/jsL10n.php:650
+msgid "Sheet:"
+msgstr "Blatt:"
+
+#: config/jsL10n.php:779
+msgid "Shipping"
+msgstr "Versand"
+
+#: config/jsL10n.php:434
+msgid "Shipping cost:"
+msgstr "Versandkosten:"
+
+#: config/jsL10n.php:771
+msgid "Shipping info"
+msgstr "Versandinformation"
+
+#: config/jsL10n.php:445 config/jsL10n.php:540
+msgid "Shipping info:"
+msgstr "Versandinformation:"
+
+#: config/jsL10n.php:22
+msgid "Shipping Label"
+msgstr "Versandaufkleber"
+
+#: config/jsL10n.php:325
+msgid "Shipping label"
+msgstr "Versandaufkleber"
+
+#: config/jsL10n.php:123
+msgid "Shipping Labels"
+msgstr "Versandetiketten"
+
+#: config/jsL10n.php:345
+msgid ""
+"Shipping labels only: [logo_image_url], [shipping_sender_address]<br />\n"
+"    [cf=_billing_first_name],[cf=_billing_last_name],[cf=_billing_city],<br "
+"/>\n"
+"    [cf=_billing_address_1],[cf=_billing_address_2],[cf=_billing_postcode],"
+"<br />\n"
+"    [cf=_billing_country],[cf=_billing_country_full_name],<br />\n"
+"    [cf=_billing_state],[cf=_billing_state_full_name],<br />\n"
+"    [cf=_shipping_first_name],[cf=_shipping_last_name],[cf=_shipping_city],"
+"<br />\n"
+"    [cf=_shipping_address_1],[cf=_shipping_address_2],[cf=_shipping_postcode]"
+",<br />\n"
+"    [cf=_shipping_country],[cf=_shipping_country_full_name],<br />\n"
+"    [cf=_shipping_state],[cf=_shipping_state_full_name],<br />\n"
+"    [order-total-items],<br />\n"
+"    [product-list-start]<br />\n"
+"    &nbsp;&nbsp;&nbsp;[field=\"ID\" after=\" - \"]<br />\n"
+"    &nbsp;&nbsp;&nbsp;[field=\"post_title\"]<br />\n"
+"    &nbsp;&nbsp;&nbsp;[order-single-item-qty]<br />\n"
+"    &nbsp;&nbsp;&nbsp;[cf=\"_price\"]<br />\n"
+"    [product-list-end]<br />"
+msgstr ""
+"Nur Versandetiketten: [logo_image_url], [shipping_sender_address]<br />\n"
+"     [cf=_billing_first_name],[cf=_billing_last_name],[cf=_billing_city],<br "
+"/>\n"
+"     [cf=_Rechnungsadresse_1],[cf=_Rechnungsadresse_2],[cf=_Rechnungsadresse]"
+",<br />\n"
+"     [cf=_billing_country],[cf=_billing_country_full_name],<br />\n"
+"     [cf=_billing_state],[cf=_billing_state_full_name],<br />\n"
+"     [cf=_shipping_first_name],[cf=_shipping_last_name],[cf=_shipping_city],"
+"<br />\n"
+"     [cf=_Lieferadresse_1],[cf=_Lieferadresse_2],"
+"[cf=_Lieferadresse_Postleitzahl],<br />\n"
+"     [cf=_Versandland],[cf=_Versandland_vollständiger_Name],<br />\n"
+"     [cf=_Versandstatus],[cf=_Versandstatus_vollständiger_Name],<br />\n"
+"     [Bestellsumme-Artikel],<br />\n"
+"     [Produktlistenstart]<br />\n"
+"     &nbsp;&nbsp;&nbsp;[field=\"ID\" after=\" - \"]<br />\n"
+"     &nbsp;&nbsp;&nbsp;[field=\"post_title\"]<br />\n"
+"     &nbsp;&nbsp;&nbsp;[Einzelartikel-Bestellung]<br />\n"
+"     &nbsp;&nbsp;&nbsp;[cf=\"_price\"]<br />\n"
+"     [Produktliste-Ende]<br />"
+
+#: config/jsL10n.php:731
+msgid "Short Description"
+msgstr "kurze Beschreibung"
+
+#: config/jsL10n.php:764
+msgid "Shortcode"
+msgstr "Kurzwahl"
+
+#: config/jsL10n.php:786
+msgid "Shortcode Field for barcode"
+msgstr "Shortcode Feld für Barcode"
+
+#: config/jsL10n.php:129 config/jsL10n.php:794
+msgid "Show barcode for each product"
+msgstr "Barcode für jedes Produkt anzeigen"
+
+#: config/jsL10n.php:797
+msgid "Show barcode for order"
+msgstr "Barcode für Bestellung anzeigen"
+
+#: config/jsL10n.php:667
+msgid "Show barcode:"
+msgstr "Zeige Strichcode:"
+
+#: config/jsL10n.php:127
+msgid "Show barcodes in order confirmation email"
+msgstr "Strichcodes in der Bestellbestätigungs-E-Mail anzeigen"
+
+#: config/jsL10n.php:133
+msgid "Show one barcode for a whole order"
+msgstr "Zeigen Sie einen Barcode für eine ganze Bestellung an"
+
+#: config/jsL10n.php:709
+msgid "Sizes of custom template \"%template_name%\" applied."
+msgstr "Größen der benutzerdefinierten Vorlage \"%template_name%\" angewendet."
+
+#: config/jsL10n.php:624
+msgid "Sizes should be specified on the package,"
+msgstr "Größen sollten auf der Verpackung angegeben werden,"
+
+#: config/jsL10n.php:654
+msgid "Skip"
+msgstr "Überspringen"
+
+#: config/jsL10n.php:723
+msgid "SKU"
+msgstr "Artikelnummer"
+
+#: config/jsL10n.php:809
+msgid "Split line for 2 values"
+msgstr "Trennlinie für 2 Werte"
+
+#: config/jsL10n.php:594
+msgid "Start"
+msgstr "Start"
+
+#: config/jsL10n.php:458 config/jsL10n.php:474 config/jsL10n.php:552
+#: config/jsL10n.php:569
+msgid "State (long):"
+msgstr "Zustand (lang):"
+
+#: config/jsL10n.php:457 config/jsL10n.php:473 config/jsL10n.php:551
+#: config/jsL10n.php:568
+msgid "State (short):"
+msgstr "Staat (kurz):"
+
+#: config/jsL10n.php:836
+msgid "Static text"
+msgstr "Statischer Text"
+
+#: config/jsL10n.php:443
+msgid "Static text/e.g. tab:"
+msgstr "Statischer Text/zB Tabulator:"
+
+#: config/jsL10n.php:152
+msgid "Status"
+msgstr "Status"
+
+#: config/jsL10n.php:56
+msgid "Storage"
+msgstr "Lagerung"
+
+#: config/jsL10n.php:604
+msgid "Successfully:"
+msgstr "Erfolgreich:"
+
+#: class/Core.php:190 class/Core.php:191
+msgid "Support"
+msgstr "Die Unterstützung"
+
+#: config/jsL10n.php:408
+msgid "Taxonomy:"
+msgstr "Taxonomie:"
+
+#: config/jsL10n.php:46 config/jsL10n.php:226
+msgid "Template"
+msgstr "Schablone"
+
+#: class/BarcodeTemplates/BarcodeTemplatesController.php:147
+msgid "Template created successfully!"
+msgstr "Vorlage erfolgreich erstellt!"
+
+#: config/jsL10n.php:589
+msgid "Template ID:"
+msgstr "Vorlagen-ID:"
+
+#: config/jsL10n.php:218
+msgid "Template Settings"
+msgstr "Vorlageneinstellungen"
+
+#: class/BarcodeTemplates/BarcodeTemplatesController.php:235
+#: class/BarcodeTemplates/BarcodeTemplatesController.php:277
+msgid "Template updated successfully!"
+msgstr "Vorlage erfolgreich aktualisiert!"
+
+#: config/jsL10n.php:651
+msgid "Template:"
+msgstr "Schablone:"
+
+#: config/jsL10n.php:162
+msgid "Templates"
+msgstr "Vorlagen"
+
+#: config/jsL10n.php:417
+msgid "Text lines (for matching):"
+msgstr "Textzeilen (zum Abgleich):"
+
+#: class/Barcodes.php:151
+#, php-format
+msgid "The %field% field is not specified for this product."
+msgstr "Das Feld %field% ist für dieses Produkt nicht angegeben."
+
+#. %s: Name of a validated field
+#: config/config.php:22
+#, php-format
+msgid "The %s parameter is not a boolean."
+msgstr "Der %s-Parameter ist kein boolescher Wert."
+
+#. %s: Name of a validated field
+#: config/config.php:20
+#, php-format
+msgid "The %s parameter is not a number."
+msgstr "Der Parameter %s ist keine Zahl."
+
+#. %s: Name of a validated field
+#: config/config.php:24
+#, php-format
+msgid "The %s parameter is not a string."
+msgstr "Der %s-Parameter ist kein String."
+
+#. %s: Name of a validated field
+#: config/config.php:26
+#, php-format
+msgid "The %s parameter is not an array."
+msgstr "Der %s-Parameter ist kein Array."
+
+#: config/jsL10n.php:203 config/jsL10n.php:230 config/jsL10n.php:245
+msgid "These settings are used for barcode embedding into pages and emails."
+msgstr ""
+"Diese Einstellungen werden für das Einbetten von Barcodes in Seiten und E-"
+"Mails verwendet."
+
+#: config/jsL10n.php:206
+msgid "These settings are used for barcode embedding into pages."
+msgstr ""
+"Diese Einstellungen werden für das Einbetten von Barcodes in Seiten "
+"verwendet."
+
+#: config/jsL10n.php:208
+msgid "These settings are used for custom barcode embedding."
+msgstr ""
+"Diese Einstellungen werden für die benutzerdefinierte Barcode-Einbettung "
+"verwendet."
+
+#: config/jsL10n.php:204
+msgid ""
+"These shortcodes can be used for barcode embedding into pages, emails and "
+"posts."
+msgstr ""
+"Diese Shortcodes können zum Einbetten von Barcodes in Seiten, E-Mails und "
+"Beiträge verwendet werden."
+
+#: class/Products.php:860 class/Products.php:884
+msgid ""
+"This field created by \"Barcode Printing for WooCommerce & Contact Form 7\" "
+"plugin, you can rename this field or disable it in the plugin's settings."
+msgstr ""
+"Dieses Feld wurde vom Plug-in „Barcode Printing for WooCommerce & Contact "
+"Form 7“ erstellt. Sie können dieses Feld umbenennen oder in den "
+"Einstellungen des Plug-ins deaktivieren."
+
+#: config/jsL10n.php:168
+msgid ""
+"This is a list of supported plugins. Enable any of them to have possibility "
+"of adding barcodes into their pages/functionality."
+msgstr ""
+"Dies ist eine Liste der unterstützten Plugins. Ermöglichen Sie jedem von "
+"ihnen die Möglichkeit, Barcodes zu ihren Seiten/Funktionen hinzuzufügen."
+
+#: config/jsL10n.php:239
+msgid ""
+"This JS will be run for each created label. Use \"jQuery(label)\" to get "
+"access to label."
+msgstr ""
+"Dieses JS wird für jedes erstellte Etikett ausgeführt. Verwenden Sie "
+"\"jQuery(label)\", um Zugriff auf das Label zu erhalten."
+
+#: config/jsL10n.php:217
+msgid ""
+"This page for demonstration purposes only. Upgrade to Business plan to "
+"create customized label templates."
+msgstr ""
+"Diese Seite dient nur zu Demonstrationszwecken. Führen Sie ein Upgrade auf "
+"den Business-Plan durch, um benutzerdefinierte Etikettenvorlagen zu "
+"erstellen."
+
+#: config/jsL10n.php:793 config/jsL10n.php:811
+msgid "This plugin is not installed on your wordpress"
+msgstr "Dieses Plugin ist nicht auf Ihrem WordPress installiert"
+
+#: config/jsL10n.php:181
+msgid "This profile was created with next settings:"
+msgstr "Dieses Profil wurde mit den letzten Einstellungen erstellt:"
+
+#: config/jsL10n.php:29
+msgid ""
+"This selector will be used by plugin to find checkboxes that are used for "
+"items selection (to get item ids)."
+msgstr ""
+"Dieser Selektor wird vom Plugin verwendet, um Kontrollkästchen zu finden, "
+"die für die Artikelauswahl verwendet werden (um Artikel-IDs zu erhalten)."
+
+#: config/jsL10n.php:111
+msgid "Tiered price"
+msgstr "Gestaffelter Preis"
+
+#: config/jsL10n.php:491
+msgid "Tiered price data:"
+msgstr "Gestaffelte Preisdaten:"
+
+#: config/jsL10n.php:439
+msgid "Time of order:"
+msgstr "Zeitpunkt der Bestellung:"
+
+#: config/jsL10n.php:406
+msgid "Time of product creation:"
+msgstr "Zeitpunkt der Produkterstellung:"
+
+#: config/jsL10n.php:4
+msgid "Tip"
+msgstr "Spitze"
+
+#: config/jsL10n.php:623 config/jsL10n.php:783
+msgid "Tip:"
+msgstr "Spitze:"
+
+#: config/jsL10n.php:418
+msgid "To allow user to match fields in popup:"
+msgstr "So erlauben Sie dem Benutzer, Felder im Popup abzugleichen:"
+
+#: config/jsL10n.php:33
+msgid "To create barcodes, please select categories"
+msgstr "Um Barcodes zu erstellen, wählen Sie bitte Kategorien aus"
+
+#: config/jsL10n.php:335
+msgid ""
+"To display other product/order data use next shortcodes:<br />\n"
+"    Product attributes: [attr=Color], [attr=Size]<br />\n"
+"    Custom fields: [cf=_price], [cf=_sale_price], [cf=_regular_price], "
+"[cf=_stock]<br />\n"
+"    Product fields: [field=ID], [field=post_title], [field=post_parent], "
+"[field=post_content], [field=post_excerpt]<br />\n"
+"    For variations can be used <i>parent.</i> prefix: [field=parent.ID], "
+"[cf=parent._sku]<br />\n"
+"    Date & Time: [date=\"d M Y\"], [creation-date], [creation-time]<br />\n"
+"    Taxonomy: [taxonomy=product_tag]<br />\n"
+"    Product categories: [category], [category level=\"top\"], [category "
+"separator=\"|\" level=\"last\"]<br />\n"
+"    Product image: [product_image_url]<br />\n"
+"    Contact form template fields for ex. <i>your-email</i>, <i>your-name</i>:"
+" [cf=_field_your-email], [cf=_field_your-name]<br />"
+msgstr ""
+"Um andere Produkt-/Bestelldaten anzuzeigen, verwenden Sie die nächsten "
+"Shortcodes:<br />\n"
+"     Produktattribute: [attr=Color], [attr=Size]<br />\n"
+"     Benutzerdefinierte Felder: [cf=_price], [cf=_sale_price], "
+"[cf=_regular_price], [cf=_stock]<br />\n"
+"     Produktfelder: [field=ID], [field=post_title], [field=post_parent], "
+"[field=post_content], [field=post_excerpt]<br />\n"
+"     Für Variationen kann das Präfix <i>parent.</i> verwendet werden: "
+"[field=parent.ID], [cf=parent._sku]<br />\n"
+"     Datum & Uhrzeit: [date=\"d M Y\"], [Erstellungsdatum], [Erstellungszeit]"
+"<br />\n"
+"     Taxonomie: [Taxonomie=Produkttag]<br />\n"
+"     Produktkategorien: [category], [category level=\"top\"], [category "
+"separator=\"|\" level=\"letzte\"]<br />\n"
+"     Produktbild: [product_image_url]<br />\n"
+"     Felder für Kontaktformularvorlagen, z. <i>Ihre-E-Mail</i>, <i>Ihr-"
+"Name</i>: [cf=_field_your-email], [cf=_field_your-name]<br />"
+
+#: config/jsL10n.php:333
+msgid ""
+"To place image and texts on label use next placeholders in html: "
+"[barcode_img_url], [line1], [line2], [line3], [line4].<br />\n"
+"    Values for Line1 - Line4 you will be able to match in import popup "
+"dialog."
+msgstr ""
+"Um Bilder und Texte auf dem Etikett zu platzieren, verwenden Sie die "
+"nächsten Platzhalter in HTML: [barcode_img_url], [line1], [line2], [line3], "
+"[line4].<br />\n"
+"     Werte für Line1 - Line4 können Sie im Import-Popup-Dialogfeld "
+"abgleichen."
+
+#: config/jsL10n.php:608
+msgid "to see details."
+msgstr "Details zu sehen."
+
+#: config/jsL10n.php:97
+msgid ""
+"To use this tool you need to open \"All Products\" page which contains list "
+"of products listed in your shop. Then on that page select which products (by "
+"clicking on checkboxes) you would like to import and only after open this "
+"import tool."
+msgstr ""
+"Um dieses Tool zu verwenden, müssen Sie die Seite „Alle Produkte“ öffnen, "
+"die eine Liste der in Ihrem Shop aufgeführten Produkte enthält. Wählen Sie "
+"dann auf dieser Seite aus, welche Produkte (durch Anklicken der "
+"Kontrollkästchen) Sie importieren möchten, und öffnen Sie erst danach dieses "
+"Importtool."
+
+#: config/jsL10n.php:677 config/jsL10n.php:683
+msgid "Top"
+msgstr "oben"
+
+#: config/jsL10n.php:414
+msgid "Top category:"
+msgstr "Top-Kategorie:"
+
+#: config/jsL10n.php:628
+msgid "Total Height"
+msgstr "Gesamthöhe"
+
+#: config/jsL10n.php:442
+msgid "Total items in order:"
+msgstr "Gesamte bestellte Artikel:"
+
+#: config/jsL10n.php:629
+msgid "Total Width:"
+msgstr "Totale Breite:"
+
+#: config/jsL10n.php:831
+msgid "Trash"
+msgstr "Müll"
+
+#: config/jsL10n.php:382
+msgid "Treat custom field as a price:"
+msgstr "Benutzerdefiniertes Feld als Preis behandeln:"
+
+#: config/jsL10n.php:63
+msgid "Type"
+msgstr "Art"
+
+#: config/jsL10n.php:323 config/jsL10n.php:777
+msgid "Type:"
+msgstr "Art:"
+
+#. Author of the plugin
+msgid "UkrSolution"
+msgstr "UkrSolution"
+
+#: config/jsL10n.php:138
+msgid "Units"
+msgstr "Einheiten"
+
+#: config/jsL10n.php:639
+msgid "Units of measure"
+msgstr "Maßeinheiten"
+
+#: class/BarcodeTemplates/BarcodeTemplatesController.php:287
+msgid "Unknown error"
+msgstr "Unbekannter Fehler"
+
+#: config/jsL10n.php:584
+msgid "updating..."
+msgstr "Aktualisierung..."
+
+#: config/jsL10n.php:183
+msgid "Use"
+msgstr "Benutzt"
+
+#: config/jsL10n.php:196
+msgid "Use %L %W %H for length, width and height"
+msgstr "Verwenden Sie %L %W %H für Länge, Breite und Höhe"
+
+#: config/jsL10n.php:318
+msgid "Use &lt;link&gt; HTML tag to add fonts"
+msgstr "Verwenden Sie das HTML-Tag <link>, um Schriftarten hinzuzufügen"
+
+#: config/jsL10n.php:320
+msgid "Use css rule \"font-family\" to set font"
+msgstr ""
+"Verwenden Sie die CSS-Regel \"font-family\", um die Schriftart festzulegen"
+
+#: config/jsL10n.php:53
+msgid "Use order fields"
+msgstr "Auftragsfelder verwenden"
+
+#: config/jsL10n.php:52
+msgid "Use products fields"
+msgstr "Verwenden Sie Produktfelder"
+
+#: config/jsL10n.php:745
+msgid "Use relative path  (without domain) to the barcode image."
+msgstr "Verwenden Sie einen relativen Pfad (ohne Domäne) zum Barcode-Bild."
+
+#: config/jsL10n.php:136
+msgid "Use shortcode / type"
+msgstr "Shortcode / Typ verwenden"
+
+#: config/jsL10n.php:65 config/jsL10n.php:194
+msgid "Use stock quantity"
+msgstr "Lagermenge verwenden"
+
+#: config/jsL10n.php:765
+msgid "User Display Name"
+msgstr "Anzeigename des Benutzers"
+
+#: config/jsL10n.php:532
+msgid "User display name"
+msgstr "Anzeigename des Benutzers"
+
+#: config/jsL10n.php:758
+msgid "User Email"
+msgstr "Benutzer Email"
+
+#: config/jsL10n.php:533
+msgid "User email"
+msgstr "Benutzer Email"
+
+#: config/jsL10n.php:756
+msgid "User ID"
+msgstr "Benutzer ID"
+
+#: config/jsL10n.php:530
+msgid "User id"
+msgstr "Benutzer ID"
+
+#: config/jsL10n.php:537
+msgid "User login url"
+msgstr "Anmelde-URL des Benutzers"
+
+#: config/jsL10n.php:757
+msgid "User Name"
+msgstr "Nutzername"
+
+#: config/jsL10n.php:531
+msgid "User name"
+msgstr "Nutzername"
+
+#: config/jsL10n.php:760
+msgid "User Register date"
+msgstr "Datum der Benutzerregistrierung"
+
+#: config/jsL10n.php:535
+msgid "User register date"
+msgstr "Datum der Benutzerregistrierung"
+
+#: config/jsL10n.php:536 config/jsL10n.php:761
+msgid "User role"
+msgstr "Benutzer-Rolle"
+
+#: config/jsL10n.php:534
+msgid "User username"
+msgstr "Benutzername"
+
+#: config/jsL10n.php:759
+msgid "Username"
+msgstr "Nutzername"
+
+#: config/jsL10n.php:115
+msgid "Users"
+msgstr "Benutzer"
+
+#: config/jsL10n.php:301
+msgid "Variation"
+msgstr "Variation"
+
+#: config/jsL10n.php:402
+msgid "Variation attributes:"
+msgstr "Variationsattribute:"
+
+#: config/jsL10n.php:186
+msgid "Variation custom fields priority"
+msgstr "Priorität benutzerdefinierter Variationsfelder"
+
+#: config/jsL10n.php:48
+msgid "VAT number"
+msgstr "Umsatzsteuer-Identifikationsnummer"
+
+#: config/jsL10n.php:153
+msgid "Visibility"
+msgstr "Sichtweite"
+
+#: config/jsL10n.php:644
+msgid "Watch short video if you did not see it yet"
+msgstr ""
+"Sehen Sie sich ein kurzes Video an, falls Sie es noch nicht gesehen haben"
+
+#: config/jsL10n.php:499
+msgid "WC Shipping Local Pickup Plus data:"
+msgstr "WC Shipping Local Pickup Plus Daten:"
+
+#: config/jsL10n.php:732
+msgid "Weight"
+msgstr "Gewicht"
+
+#: config/jsL10n.php:647 config/jsL10n.php:671 config/jsL10n.php:734
+msgid "Width"
+msgstr "Breite"
+
+#: config/jsL10n.php:627
+msgid "width must be equal to"
+msgstr "Breite muss gleich sein"
+
+#: config/jsL10n.php:707
+msgid "Width:"
+msgstr "Breite:"
+
+#: config/jsL10n.php:424
+msgid "WooCommerce OpenPos:"
+msgstr "WooCommerce OpenPos:"
+
+#: config/jsL10n.php:669
+msgid "Word"
+msgstr "Wort"
+
+#: config/jsL10n.php:656
+msgid "Wordpress didn't return correct json reply."
+msgstr "Wordpress hat keine korrekte JSON-Antwort zurückgegeben."
+
+#: config/jsL10n.php:702
+msgid "X Copies"
+msgstr "X Kopien"
+
+#: config/jsL10n.php:234
+msgid ""
+"You can combine a few fields with separator, e.g:<br/>[field=ID before=\"Id:"
+"\" after=\".\"]<br/>[static=|]<br/>[cf=_sku before=\"SKU: \" after=\"\\n\"]"
+msgstr ""
+"Sie können einige Felder mit Trennzeichen kombinieren, z. B.:<br/>[field=ID "
+"before=\"Id:\" after=\".\"]<br/>[static=|]<br/>[cf=_sku before= "
+"\"Artikelnummer: \" after=\"\\n\"]"
+
+#: config/jsL10n.php:701
+msgid "You can enter a few custom fields separated by comma \",\""
+msgstr ""
+"Sie können einige benutzerdefinierte Felder durch Komma \",\" getrennt "
+"eingeben."
+
+#: config/jsL10n.php:224
+msgid "You can use these templates for embedding into emails, pages & posts in"
+msgstr ""
+"Sie können diese Vorlagen zum Einbetten in E-Mails, Seiten und Beiträge "
+"verwenden"
+
+#: config/jsL10n.php:661
+msgid ""
+"You can't assign codes to products because all codes from this file already "
+"in use by other products."
+msgstr ""
+"Sie können Produkten keine Codes zuweisen, da alle Codes aus dieser Datei "
+"bereits von anderen Produkten verwendet werden."
+
+#: config/jsL10n.php:784
+msgid "You will be able to scan barcode and read all the encoded information"
+msgstr ""
+"Sie können Barcodes scannen und alle verschlüsselten Informationen lesen"
+
+#: config/jsL10n.php:822
+msgid "Zoom"
+msgstr "Zoomen"

@@ -1,0 +1,202 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.select-location {
+  cursor: pointer;
+  margin: 0;
+  font-size: 18px;
+}
+
+.map-order-review {
+  height: 500px;
+}
+
+#position {
+  display: none;
+}
+
+p#billing_biteship_location_field label > span.optional {
+  display: none;
+}
+
+p#shipping_biteship_location_field label > span.optional {
+  display: none;
+}
+
+p#billing_biteship_province_field > label {
+  top: 0px;
+  padding: 0;
+  bottom: auto;
+  margin-top: 0;
+  background: transparent;
+}
+p#billing_biteship_city_field > label {
+  top: 0px;
+  padding: 0;
+  bottom: auto;
+  margin-top: 0;
+  background: transparent;
+}
+p#billing_biteship_district_field > label {
+  top: 0px;
+  padding: 0;
+  bottom: auto;
+  margin-top: 0;
+  background: transparent;
+}
+p#billing_biteship_zipcode_field > label {
+  top: 0px;
+  padding: 0;
+  bottom: auto;
+  margin-top: 0;
+  background: transparent;
+}
+p#shipping_biteship_province_field > label {
+  top: 0px;
+  padding: 0;
+  bottom: auto;
+  margin-top: 0;
+  background: transparent;
+}
+p#shipping_biteship_city_field > label {
+  top: 0px;
+  padding: 0;
+  bottom: auto;
+  margin-top: 0;
+  background: transparent;
+}
+p#shipping_biteship_district_field > label {
+  top: 0px;
+  padding: 0;
+  bottom: auto;
+  margin-top: 0;
+  background: transparent;
+}
+p#shipping_biteship_zipcode_field > label {
+  top: 0px;
+  padding: 0;
+  bottom: auto;
+  margin-top: 0;
+  background: transparent;
+}
+
+span.selection > span.select2-selection.select2-selection--single {
+  display: block !important;
+}
+
+/* The Modal (background) */
+#myModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+#myModal .modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+
+  /* new config*/
+  margin-left: 30% !important;
+  margin-top: 10% !important;
+}
+
+@media only screen and (max-width: 768px) {
+  #myModal .modal-content {
+    width: 100%;
+    margin-left: 0% !important;
+    margin-top: 0% !important;
+    border: 20px solid #888;
+  }
+  #myModal .ui-menu {
+    top: 107.75px;
+    left: 20px;
+    width: 89%;
+  }
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+input.ui-autocomplete-loading {
+  background: white url("../images/ui-anim_basic_16x16.gif") 98% 50% no-repeat;
+}
+
+input.valid {
+  background: white url("../images/check.png") 98% 50% no-repeat;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+ul.ui-menu {
+  width: 100px;
+}
+
+.overlay {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(66, 66, 66, 0.8);
+  z-index: 9999;
+  text-align: center;
+  display: none;
+}
+
+.overlay__inner {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.overlay__content {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spinner {
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-top-color: #fff;
+  animation: spin 1s infinite linear;
+  border-radius: 100%;
+  border-style: solid;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

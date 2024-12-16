@@ -1,0 +1,140 @@
+#barcodes-wrapper-tooltip {
+  display: inline-block;
+  width: initial;
+  position: relative;
+  float: right;
+}
+
+#barcodes-wrapper-tooltip #barcodes-tooltip {
+  position: absolute;
+  background: #0073aa;
+  color: #fff;
+  z-index: 2;
+  bottom: 40px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px;
+  display: none;
+  transition: 0.3s;
+  text-align: initial;
+}
+
+#barcodes-wrapper-tooltip #barcodes-tooltip.show {
+  display: inline-block;
+}
+
+#barcodes-wrapper-tooltip #barcodes-tooltip::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  margin-left: -10px;
+  left: 50%;
+  bottom: -7px;
+  z-index: 999999;
+  width: 0;
+  height: 0;
+  border-top: 10px solid #0073aa;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+#barcodes-import-products {
+  padding: 0 10px 1px;
+  height: 32px;
+  margin: 0 10px !important;
+}
+
+#barcodes-import-products img,
+#barcodes-import-categories img,
+#barcodes-import-cf-messages img,
+#barcodes-import-wc-coupons img,
+#barcodes-import-orders img,
+#barcodes-import-orders-items img,
+#barcodes-import-orders-products img,
+#shipping-barcodes-import-orders img,
+#barcodes-import-wc-coupons img,
+#barcodes-import-wp-users img {
+  position: relative;
+  top: 4px;
+  margin-right: 5px;
+}
+
+#barcodes-import-products span.dashicons-before::before,
+#barcodes-import-categories span.dashicons-before::before,
+#barcodes-import-cf-messages span.dashicons-before::before,
+#barcodes-import-wc-coupons span.dashicons-before::before,
+#barcodes-import-orders span.dashicons-before::before,
+#barcodes-import-orders-items span.dashicons-before::before,
+#barcodes-import-orders-products span.dashicons-before::before,
+#shipping-barcodes-import-orders span.dashicons-before::before,
+#barcodes-import-wc-coupons span.dashicons-before::before,
+#barcodes-import-wp-users span.dashicons-before::before,
+.barcodes-show-popup span.dashicons-before::before,
+.barcodes-import-single-product span.dashicons-before::before,
+.barcodes-import-variation-item span.dashicons-before::before {
+  font-size: 18px;
+  padding-top: 6px;
+}
+
+#barcodes-import-cf-messages {
+  margin: 0px 7px !important;
+  padding: 0 10px 1px;
+  height: 30px;
+}
+
+#barcodes-import-categories {
+  margin: 1px 7px !important;
+  padding: 0 10px 1px;
+  height: 32px;
+}
+
+#barcodes-import-orders-items,
+#barcodes-import-orders,
+#barcodes-import-orders-products,
+#shipping-barcodes-import-orders,
+#barcodes-import-wc-coupons,
+#barcodes-import-wp-users {
+  margin: 0 7px !important;
+  padding: 0 10px 1px;
+  height: 32px;
+}
+
+#barcode-show-popup {
+  background: rgb(0 0 0 / 32%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999998;
+  width: 100%;
+  height: 100vh;
+}
+
+#barcode-show-popup-wrapper {
+  background: white;
+  position: fixed;
+  top: 10%;
+  left: calc(50% - 200px);
+  z-index: 999999;
+  border-radius: 5px;
+  padding: 30px;
+  width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+#barcode-show-popup-wrapper #barcode-show-popup-close {
+  position: absolute;
+  right: 7px;
+  top: 5px;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#barcode-show-popup img {
+  max-width: 100%;
+}
+
+#adminmenu .toplevel_page_wpbcu-digital-settings .wp-menu-image img {
+  opacity: .7;
+}

@@ -1,0 +1,433 @@
+# Translation of Themes - Twenty Twenty-Four in Indonesian
+# This file is distributed under the same license as the Themes - Twenty Twenty-Four package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-02 10:28:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: id\n"
+"Project-Id-Version: Themes - Twenty Twenty-Four\n"
+
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "Twenty Twenty-Four"
+msgstr "Twenty Twenty-Four"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4."
+msgstr "Twenty Twenty-Four dirancang agar fleksibel, serbaguna, dan dapat diterapkan pada semua situs web. Koleksi templat dan polanya disesuaikan dengan kebutuhan yang berbeda, seperti menampilkan bisnis, blogging dan menulis atau memamerkan karya. Banyak kemungkinan yang dapat dihadirkan dengan hanya sedikit pengaturan warna dan tipografi. Twenty Twenty-Four hadir dengan variasi gaya dan desain halaman penuh untuk membantu mempercepat proses pembuatan situs, sepenuhnya kompatibel dengan editor situs, dan memanfaatkan alat desain baru yang diperkenalkan di WordPress 6.4."
+
+#: patterns/posts-list.php
+msgctxt "Pattern title"
+msgid "List of posts without images, 1 column"
+msgstr "Daftar artikel tanpa gambar, 1 kolom"
+
+#: patterns/hidden-portfolio-hero.php:16
+msgid "I’m <em>Leia Acosta</em>, a passionate photographer who finds inspiration in capturing the fleeting beauty of life."
+msgstr "Saya <em>Leia Acosta</em>, seorang fotografer penuh semangat yang menemukan inspirasi dalam menangkap keindahan sesaat dalam hidup."
+
+#: functions.php:200
+msgid "A collection of full page layouts."
+msgstr "Koleksi tata letak halaman penuh."
+
+#: functions.php:199
+msgctxt "Block pattern category"
+msgid "Pages"
+msgstr "Halaman"
+
+#. Author URI of the theme
+#. Translators: WordPress link.
+#: style.css patterns/footer-centered-logo-nav.php:21
+#: patterns/footer-colophon-3-col.php:90 patterns/footer.php:116
+msgid "https://wordpress.org"
+msgstr "https://id.wordpress.org"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Header"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Footer"
+
+#: styles/fossil.json styles/ice.json theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr "Inter"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Post Meta"
+msgstr "Meta Artikel"
+
+#: patterns/cta-content-image-on-right.php:40
+msgctxt "Button text of this section"
+msgid "Download app"
+msgstr "Unduh aplikasi"
+
+#: patterns/banner-project-description.php
+msgctxt "Pattern title"
+msgid "Project description"
+msgstr "Deskripsi proyek"
+
+#: patterns/banner-hero.php:36
+msgctxt "Button text of the hero section"
+msgid "About us"
+msgstr "Tentang kami"
+
+#: patterns/banner-hero.php:17
+msgctxt "Heading of the hero section"
+msgid "A commitment to innovation and sustainability"
+msgstr "Sebuah komitmen pada inovasi dan keberlanjutan"
+
+#: patterns/cta-pricing.php:86
+msgctxt "Button text for the first pricing level"
+msgid "Subscribe"
+msgstr "Berlangganan"
+
+#: patterns/cta-pricing.php:71 patterns/cta-pricing.php:130
+msgctxt "Feature for pricing level"
+msgid "Exclusive access to the <em>Études</em> app for iOS and Android."
+msgstr "Akses eksklusif ke aplikasi <em>Études</em> untuk iOS dan Android"
+
+#: patterns/cta-pricing.php:61 patterns/cta-pricing.php:122
+#: patterns/cta-pricing.php:180
+msgctxt "Feature for pricing level"
+msgid "Weekly print edition."
+msgstr "Edisi cetak mingguan."
+
+#: patterns/cta-pricing.php:52
+msgctxt "Feature for pricing level"
+msgid "Access to 5 exclusive <em>Études Articles</em> per month."
+msgstr "Akses pada 5 <em>Artikel Études</em> eksklusif setiap bulan."
+
+#: patterns/cta-pricing.php:41
+msgctxt "Sample price for the first pricing level"
+msgid "$0"
+msgstr "$0"
+
+#: patterns/cta-pricing.php:36
+msgctxt "Sample heading for the first pricing level"
+msgid "Free"
+msgstr "Gratis"
+
+#: patterns/cta-pricing.php
+msgctxt "Pattern title"
+msgid "Pricing"
+msgstr "Harga"
+
+#: patterns/cta-content-image-on-right.php:46
+msgctxt "Button text of this section"
+msgid "How it works"
+msgstr "Bagaimana cara kerjanya"
+
+#: patterns/cta-pricing.php:21
+msgctxt "Sample description for a pricing table"
+msgid "We offer flexible options, which you can adapt to the different needs of each project."
+msgstr "Kami menawarkan pilihan fleksibel yang dapat Anda sesuaikan dengan kebutuhan proyek yang berbeda."
+
+#: patterns/cta-pricing.php:17
+msgctxt "Sample heading for pricing pattern"
+msgid "Our Services"
+msgstr "Layanan Kami"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single with Sidebar"
+msgstr "Tunggal dengan Sidebar"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page No Title"
+msgstr "Halaman Tanpa Judul"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr "6"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr "5"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr "4"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr "3"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr "2"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr "1"
+
+#: styles/ice.json
+msgctxt "Style variation name"
+msgid "Ice"
+msgstr "Es"
+
+#: styles/fossil.json styles/ice.json styles/maelstrom.json theme.json
+msgctxt "Font size name"
+msgid "Extra Extra Large"
+msgstr "Ekstra Ekstra Besar"
+
+#: styles/fossil.json styles/ice.json styles/maelstrom.json theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Ekstra Besar"
+
+#: styles/fossil.json styles/ice.json styles/maelstrom.json theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Besar"
+
+#: styles/fossil.json styles/ice.json styles/maelstrom.json theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Medium"
+
+#: styles/fossil.json styles/ice.json styles/maelstrom.json theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Kecil"
+
+#: styles/fossil.json styles/maelstrom.json theme.json
+msgctxt "Font family name"
+msgid "Cardo"
+msgstr "Cardo"
+
+#: styles/fossil.json styles/ice.json styles/mint.json styles/onyx.json
+#: theme.json
+msgctxt "Color name"
+msgid "Contrast / Three"
+msgstr "Kontras / Tiga"
+
+#: styles/fossil.json styles/ice.json styles/mint.json styles/onyx.json
+#: theme.json
+msgctxt "Color name"
+msgid "Contrast / Two"
+msgstr "Kontras / Dua"
+
+#: styles/fossil.json
+msgctxt "Style variation name"
+msgid "Fossil"
+msgstr "Fosil"
+
+#: styles/ember.json styles/fossil.json styles/ice.json styles/maelstrom.json
+#: styles/mint.json theme.json
+msgctxt "Font family name"
+msgid "System Serif"
+msgstr "System Serif"
+
+#: styles/ember.json styles/fossil.json styles/ice.json styles/maelstrom.json
+#: styles/mint.json theme.json
+msgctxt "Font family name"
+msgid "System Sans-serif"
+msgstr "System Sans-serif"
+
+#: styles/ember.json styles/ice.json styles/maelstrom.json styles/mint.json
+msgctxt "Font family name"
+msgid "Jost"
+msgstr "Jost"
+
+#: styles/ember.json styles/fossil.json styles/ice.json styles/maelstrom.json
+#: styles/mint.json styles/onyx.json theme.json
+msgctxt "Color name"
+msgid "Base / Two"
+msgstr "Dasar / Dua"
+
+#: styles/ember.json styles/fossil.json styles/ice.json styles/maelstrom.json
+#: styles/mint.json styles/onyx.json styles/rust.json theme.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr "Kontras"
+
+#: styles/ember.json styles/maelstrom.json
+msgctxt "Color name"
+msgid "Contrast / 2"
+msgstr "Kontras / 2"
+
+#: styles/ember.json styles/fossil.json styles/ice.json styles/maelstrom.json
+#: styles/mint.json styles/onyx.json styles/rust.json theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr "Dasar"
+
+#: patterns/text-title-left-image-right.php:34
+msgctxt "Call to Action button text"
+msgid "About us"
+msgstr "Tentang kami"
+
+#: patterns/text-title-left-image-right.php:27
+msgctxt "Description for the About pattern"
+msgid "Leaving an indelible mark on the landscape of tomorrow."
+msgstr "Meninggalkan jejak yang tak terhapus pada lanskap hari esok."
+
+#: patterns/text-title-left-image-right.php:20
+msgctxt "Headline for the About pattern"
+msgid "Études offers comprehensive consulting, management, design, and research solutions. Every architectural endeavor is an opportunity to shape the future."
+msgstr "Études menawarkan solusi konsultasi, manajemen, desain, dan riset yang komprehensif. Setiap usaha arsitektural adalah sebuah peluang untuk membentuk masa depan."
+
+#: patterns/text-title-left-image-right.php
+msgctxt "Pattern title"
+msgid "Title text and button on left with image on right"
+msgstr "Teks judul dan tombol di sebelah kiri dengan gambar di sebelah kanan"
+
+#: patterns/text-project-details.php:26
+msgctxt "Descriptive title for the feature area"
+msgid "With meticulous attention to detail and a commitment to excellence, we create spaces that inspire, elevate, and enrich the lives of those who inhabit them."
+msgstr "Dengan perhatian cermat terhadap detail dan komitmen terhadap keunggulan, kami menciptakan ruang yang menginspirasi, meningkatkan, dan memperkaya kehidupan orang-orang yang menghuninya."
+
+#: patterns/text-project-details.php:17
+msgctxt "Title text for the feature area"
+msgid "The revitalized art gallery is set to redefine cultural landscape."
+msgstr "Galeri seni yang telah dipulihkan ini diatur untuk mendefinisikan ulang lanskap budaya."
+
+#: patterns/text-project-details.php:34 patterns/text-project-details.php:42
+msgctxt "Descriptive text for the feature area"
+msgid "The revitalized Art Gallery is set to redefine the cultural landscape of Toronto, serving as a nexus of artistic expression, community engagement, and architectural marvel. The expansion and renovation project pay homage to the Art Gallery's rich history while embracing the future, ensuring that the gallery remains a beacon of inspiration."
+msgstr "Galeri Seni yang telah dipulihkan ini diatur untuk mendefinisikan ulang lanskap budaya Toronto, yang berfungsi sebagai titik perpaduan antara ekspresi artistik, keterlibatan komunitas, dan keajaiban arsitektural. Proyek perluasan dan renovasi ini menghormati sejarah kaya Galeri Seni seraya merangkul masa depan, memastikan bahwa galeri tetap menjadi mercusuar inspirasi."
+
+#: patterns/text-project-details.php
+msgctxt "Pattern title"
+msgid "Project details"
+msgstr "Detail proyek"
+
+#: patterns/text-feature-grid-3-col.php:111
+msgctxt "Sample content"
+msgid "Experience the fusion of imagination and expertise with Études Architectural Solutions."
+msgstr "Rasakan perpaduan antara imajinasi dan keahlian dengan Solusi Arsitektur Études."
+
+#: patterns/text-feature-grid-3-col.php:107
+msgctxt "Sample heading"
+msgid "Architectural Solutions"
+msgstr "Solusi Arsitektur"
+
+#: patterns/text-feature-grid-3-col.php:95
+msgctxt "Sample feature heading"
+msgid "Project Management"
+msgstr "Manajemen Proyek"
+
+#: patterns/text-feature-grid-3-col.php:83
+msgctxt "Sample feature heading"
+msgid "Consulting"
+msgstr "Konsultasi"
+
+#: patterns/text-feature-grid-3-col.php:62
+msgctxt "Sample feature heading"
+msgid "App Access"
+msgstr "Akses Aplikasi"
+
+#: patterns/text-feature-grid-3-col.php:50
+msgctxt "Sample feature heading"
+msgid "Continuous Support"
+msgstr "Dukungan Berkelanjutan"
+
+#. Translators: About text placeholder
+#: patterns/text-centered-statement-small.php:22
+msgid "I write about finance, management and economy, my book “%1$s” is out now."
+msgstr "Saya menulis tentang keuangan, manajemen, dan ekonomi, buku saya \"%1$s\" kini sudah tersedia."
+
+#. Translators: About link placeholder
+#: patterns/text-centered-statement-small.php:19
+msgid "Money Studies"
+msgstr "Studi Keuangan"
+
+#: patterns/text-alternating-images.php:104
+msgctxt "Sample list item"
+msgid "Exclusive access to design insights."
+msgstr "Akses ekslusif ke wawasan desain."
+
+#: patterns/text-alternating-images.php:100
+msgctxt "Sample list item"
+msgid "Case studies that celebrate architecture."
+msgstr "Studi kasus yang merayakan arsitektur."
+
+#: patterns/text-alternating-images.php:96
+msgctxt "Sample list item"
+msgid "A world of thought-provoking articles."
+msgstr "Dunia artikel yang menggugah pikiran."
+
+#: patterns/text-alternating-images.php:90
+msgctxt "Sample heading"
+msgid "Études Newsletter"
+msgstr "Nawala Études"
+
+#: patterns/text-alternating-images.php:81
+msgid "Windows of a building in Nuremberg, Germany"
+msgstr "Jendela dari sebuah gedung di Nuremberg, Jerman"
+
+#: patterns/text-alternating-images.php:63
+msgid "Tourist taking photo of a building"
+msgstr "Turis mengambil foto sebuah gedung"
+
+#: patterns/text-alternating-images.php:36
+msgctxt "Sample list heading"
+msgid "Études Architect App"
+msgstr "Aplikasi Arsitek Études"
+
+#: patterns/text-alternating-images.php:22
+msgctxt "Sample subheading content"
+msgid "Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers."
+msgstr "Suite layanan profesional kami yang komprehensif melayani beragam klien, mulai dari pemilik rumah hingga pengembang komersial."
+
+#: patterns/text-alternating-images.php:18
+msgctxt "Sample heading content"
+msgid "An array of resources"
+msgstr "Jajaran sumber daya"
+
+#: patterns/text-alternating-images.php
+msgctxt "Pattern title"
+msgid "Text with alternating images"
+msgstr "Teks dengan gambar selang-seling"
+
+#: functions.php:28
+msgid "Arrow icon"
+msgstr "Ikon panah"
+
+#: functions.php:51
+msgid "Pill"
+msgstr "Pil"
+
+#: functions.php:74
+msgid "Checkmark"
+msgstr "Tanda Centang"
+
+#: functions.php:93
+msgid "With arrow"
+msgstr "Dengan panah"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "Tim WordPress"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentytwentyfour/"
+msgstr "https://wordpress.org/themes/twentytwentyfour/"
